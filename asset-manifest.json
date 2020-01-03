@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ashilawa/samaj-app/static/css/main.f78f541c.chunk.css",
-    "main.js": "/ashilawa/samaj-app/static/js/main.7b337dc4.chunk.js",
-    "main.js.map": "/ashilawa/samaj-app/static/js/main.7b337dc4.chunk.js.map",
-    "runtime-main.js": "/ashilawa/samaj-app/static/js/runtime-main.80106ada.js",
-    "runtime-main.js.map": "/ashilawa/samaj-app/static/js/runtime-main.80106ada.js.map",
-    "static/css/2.764ccc25.chunk.css": "/ashilawa/samaj-app/static/css/2.764ccc25.chunk.css",
-    "static/js/2.30b63b66.chunk.js": "/ashilawa/samaj-app/static/js/2.30b63b66.chunk.js",
-    "static/js/2.30b63b66.chunk.js.map": "/ashilawa/samaj-app/static/js/2.30b63b66.chunk.js.map",
-    "index.html": "/ashilawa/samaj-app/index.html",
-    "precache-manifest.e1f11d3560a1b54586269fe8640bc517.js": "/ashilawa/samaj-app/precache-manifest.e1f11d3560a1b54586269fe8640bc517.js",
-    "service-worker.js": "/ashilawa/samaj-app/service-worker.js",
-    "static/css/2.764ccc25.chunk.css.map": "/ashilawa/samaj-app/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.f78f541c.chunk.css.map": "/ashilawa/samaj-app/static/css/main.f78f541c.chunk.css.map",
-    "static/js/2.30b63b66.chunk.js.LICENSE": "/ashilawa/samaj-app/static/js/2.30b63b66.chunk.js.LICENSE",
-    "static/media/about.md": "/ashilawa/samaj-app/static/media/about.1d759c4a.md"
+    "main.css": "/samaj-app/static/css/main.f78f541c.chunk.css",
+    "main.js": "/samaj-app/static/js/main.66791105.chunk.js",
+    "main.js.map": "/samaj-app/static/js/main.66791105.chunk.js.map",
+    "runtime-main.js": "/samaj-app/static/js/runtime-main.0a33c77d.js",
+    "runtime-main.js.map": "/samaj-app/static/js/runtime-main.0a33c77d.js.map",
+    "static/css/2.764ccc25.chunk.css": "/samaj-app/static/css/2.764ccc25.chunk.css",
+    "static/js/2.30b63b66.chunk.js": "/samaj-app/static/js/2.30b63b66.chunk.js",
+    "static/js/2.30b63b66.chunk.js.map": "/samaj-app/static/js/2.30b63b66.chunk.js.map",
+    "index.html": "/samaj-app/index.html",
+    "precache-manifest.06dd2177ef977e576e163499db30bcff.js": "/samaj-app/precache-manifest.06dd2177ef977e576e163499db30bcff.js",
+    "service-worker.js": "/samaj-app/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/samaj-app/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.f78f541c.chunk.css.map": "/samaj-app/static/css/main.f78f541c.chunk.css.map",
+    "static/js/2.30b63b66.chunk.js.LICENSE": "/samaj-app/static/js/2.30b63b66.chunk.js.LICENSE",
+    "static/media/about.md": "/samaj-app/static/media/about.1d759c4a.md"
   },
   "entrypoints": [
-    "static/js/runtime-main.80106ada.js",
+    "static/js/runtime-main.0a33c77d.js",
     "static/css/2.764ccc25.chunk.css",
     "static/js/2.30b63b66.chunk.js",
     "static/css/main.f78f541c.chunk.css",
-    "static/js/main.7b337dc4.chunk.js"
+    "static/js/main.66791105.chunk.js"
   ]
 }
