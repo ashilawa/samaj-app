@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/samaj-app/precache-manifest.06dd2177ef977e576e163499db30bcff.js"
+  "/samaj-app/precache-manifest.fb8023b9e7c502fc5fdc8ce3ad32aa49.js"
 );
 
 self.addEventListener('message', (event) => {
