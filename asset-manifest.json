@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ashilawa/samaj-app/static/css/main.f78f541c.chunk.css",
+    "main.js": "/ashilawa/samaj-app/static/js/main.01b2fc28.chunk.js",
+    "main.js.map": "/ashilawa/samaj-app/static/js/main.01b2fc28.chunk.js.map",
+    "runtime-main.js": "/ashilawa/samaj-app/static/js/runtime-main.80106ada.js",
+    "runtime-main.js.map": "/ashilawa/samaj-app/static/js/runtime-main.80106ada.js.map",
+    "static/css/2.764ccc25.chunk.css": "/ashilawa/samaj-app/static/css/2.764ccc25.chunk.css",
+    "static/js/2.468a8630.chunk.js": "/ashilawa/samaj-app/static/js/2.468a8630.chunk.js",
+    "static/js/2.468a8630.chunk.js.map": "/ashilawa/samaj-app/static/js/2.468a8630.chunk.js.map",
+    "index.html": "/ashilawa/samaj-app/index.html",
+    "precache-manifest.21aaadead25bf7d54f5680293df21e6a.js": "/ashilawa/samaj-app/precache-manifest.21aaadead25bf7d54f5680293df21e6a.js",
+    "service-worker.js": "/ashilawa/samaj-app/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/ashilawa/samaj-app/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.f78f541c.chunk.css.map": "/ashilawa/samaj-app/static/css/main.f78f541c.chunk.css.map",
+    "static/js/2.468a8630.chunk.js.LICENSE": "/ashilawa/samaj-app/static/js/2.468a8630.chunk.js.LICENSE",
+    "static/media/about.md": "/ashilawa/samaj-app/static/media/about.1d759c4a.md"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80106ada.js",
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.468a8630.chunk.js",
+    "static/css/main.f78f541c.chunk.css",
+    "static/js/main.01b2fc28.chunk.js"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "path": "/images/home/download.jpeg",
+      "label": "first",
+      "info": "info1",
+      "alt": "first image"
+    },
+    {
+      "path": "/images/home/download1.jpeg",
+      "label": "second",
+      "info": "info2",
+      "alt": "second image"
+    },
+    {
+      "path": "/images/home/download2.jpeg",
+      "label": "third",
+      "info": "info3",
+      "alt": "third image"
+    }
+  ]
+}
