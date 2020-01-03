@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 //import "./index.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 // Featured
 import Index from "./views/Index";
@@ -17,7 +17,7 @@ import NotFound from "./views/NotFound";
 import "./static/css/main.scss";
 
 ReactDOM.render(
-  <Router>
+  <Router basename="/">
     <Switch>
       <Route exact path="/" component={Index} />
       <Route path="/about" component={About} />

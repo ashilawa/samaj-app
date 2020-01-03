@@ -1,25 +1,27 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+//import { Link } from "react-router-dom";
+import Carousel from "react-bootstrap/Carousel";
 
-import Main from '../layouts/Main';
+import Main from "../layouts/Main";
+
+import info from "../data/info";
+
+console.log(info);
 
 const Index = () => (
   <Main>
     <article className="post" id="index">
-      <header>
-        <div className="title">
-          <h2><Link to="/">About this site</Link></h2>
-          <p>A beautiful, responsive, react app written with modern Javascript.</p>
-        </div>
-      </header>
-      <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
-        or you can check out my {' '}
-        <Link to="/resume">resume</Link>, {' '}
-        <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
-      </p>
-      <p> Source available <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
+      <Carousel>
+        {info.data.map(s => (
+          <Carousel.Item>
+            <img className="d-block w-100" src={s.path} alt={s.alt} />
+            <Carousel.Caption>
+              <h3>{s.label}</h3>
+              <p>{s.info}</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        ))}
+      </Carousel>
     </article>
   </Main>
 );
