@@ -15,14 +15,16 @@ const LinkRenderer = ({ ...children }) => <Link {...children} />;
 
 const About = () => {
   // set markdown state
-  const [srcMarkdown, setSrcMarkdown] = useState('');
+  const [srcMarkdown, setSrcMarkdown] = useState("");
 
   // fetch markdown
   useEffect(() => {
-    fetch(markdown).then((response) => response.text()).then((text) => {
-      setSrcMarkdown(text)
-    })
-  })
+    fetch(markdown)
+      .then(response => response.text())
+      .then(text => {
+        setSrcMarkdown(text);
+      });
+  });
 
   // view
   return (
@@ -32,7 +34,7 @@ const About = () => {
         <header>
           <div className="title">
             <h2>
-              <Link to="/about">About Me</Link>
+              <Link to="/about">About Us</Link>
             </h2>
             <p>(in about {count} words)</p>
           </div>

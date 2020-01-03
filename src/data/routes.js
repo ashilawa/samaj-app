@@ -1,29 +1,29 @@
 const data = [
   {
-    path: '/',
-    label: 'Michael D\'Angelo',
-    index: true,
+    path: "/",
+    label: "logo",
+    index: true
   },
   {
-    path: '/about',
-    label: 'About',
+    path: "/about",
+    label: "Home"
   },
   {
-    path: '/resume',
-    label: 'Resume',
+    path: "/resume",
+    label: "About"
   },
   {
-    path: '/projects',
-    label: 'Projects',
+    path: "/projects",
+    label: "Gallery"
   },
   {
-    path: '/stats',
-    label: 'Stats',
+    path: "/stats",
+    label: "Board of Trustees"
   },
   {
-    path: '/contact',
-    label: 'Contact',
-  },
+    path: "/contact",
+    label: "Contact Us"
+  }
 ];
 
 export default data;
