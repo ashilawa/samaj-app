@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import dayjs from "dayjs";
-import url from "url";
 import Gallery from "react-grid-gallery";
 
 const IMAGES = [
@@ -19,7 +18,7 @@ const IMAGES = [
     thumbnail:
       "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
     thumbnailWidth: 320,
-    thumbnailHeight: 212,
+    thumbnailHeight: 174,
     tags: [
       { value: "Ocean", title: "Ocean" },
       { value: "People", title: "People" }
@@ -50,7 +49,9 @@ const Cell = ({ data }) => (
       {/*     <a href={data.link} className="image">
         <img src={url.resolve("", data.image)} alt={data.title} />
       </a> */}
-      <Gallery images={IMAGES} />
+      <div>
+        <Gallery images={IMAGES} backdropClosesModal={true}/>
+      </div>
       <div className="description">
         <p>{data.desc}</p>
       </div>

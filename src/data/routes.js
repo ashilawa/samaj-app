@@ -5,20 +5,20 @@ const data = [
     index: true
   },
   {
-    path: "/about",
+    path: "/",
     label: "Home"
   },
   {
-    path: "/resume",
-    label: "About"
+    path: "/trust",
+    label: "Board of Trustees"
   },
   {
-    path: "/projects",
+    path: "/gallery",
     label: "Gallery"
   },
   {
-    path: "/stats",
-    label: "Board of Trustees"
+    path: "/about",
+    label: "About"
   },
   {
     path: "/contact",

@@ -86,7 +86,7 @@ const Contact = () => {
             <h2><Link to="/contact">Contact</Link></h2>
           </div>
         </header>
-        <div className="email-at">
+        {/* <div className="email-at">
           <p>Feel free to get in touch. You can email me at: </p>
           <div
             className="inline-container"
@@ -99,8 +99,8 @@ const Contact = () => {
               <span>@mldangelo.com</span>
             </a>
           </div>
-        </div>
-        <ul className="icons">
+        </div> */}
+        {/* <ul className="icons">
           {data.map((s) => (
             <li key={s.label}>
               <a href={s.link}>
@@ -108,7 +108,7 @@ const Contact = () => {
               </a>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </article>
     </Main>
   );
