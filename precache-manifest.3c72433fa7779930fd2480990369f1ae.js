@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8964b2ed4851a2aeff0524a5aff7400",
+    "revision": "78b3286750238d605f6138a1918931f2",
     "url": "/samaj-app/index.html"
   },
   {
-    "revision": "ab344a8e87c9266ecbab",
+    "revision": "db18bc5b900d6bb53384",
     "url": "/samaj-app/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "7db99022dc44fd32aa60",
+    "revision": "b6101baaf7952ffacf9b",
     "url": "/samaj-app/static/css/main.c30052a1.chunk.css"
   },
   {
-    "revision": "ab344a8e87c9266ecbab",
-    "url": "/samaj-app/static/js/2.3fd4c6bb.chunk.js"
+    "revision": "db18bc5b900d6bb53384",
+    "url": "/samaj-app/static/js/2.dd546851.chunk.js"
   },
   {
     "revision": "199cd618a87cb0a6b1ce40019c8cc3d4",
-    "url": "/samaj-app/static/js/2.3fd4c6bb.chunk.js.LICENSE"
+    "url": "/samaj-app/static/js/2.dd546851.chunk.js.LICENSE"
   },
   {
-    "revision": "7db99022dc44fd32aa60",
-    "url": "/samaj-app/static/js/main.33473d87.chunk.js"
+    "revision": "b6101baaf7952ffacf9b",
+    "url": "/samaj-app/static/js/main.6cae8bf2.chunk.js"
   },
   {
     "revision": "8970e20b62eeb495e552",
