@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/samaj-app/static/css/main.c30052a1.chunk.css",
-    "main.js": "/samaj-app/static/js/main.33473d87.chunk.js",
-    "main.js.map": "/samaj-app/static/js/main.33473d87.chunk.js.map",
+    "main.js": "/samaj-app/static/js/main.64bd1e80.chunk.js",
+    "main.js.map": "/samaj-app/static/js/main.64bd1e80.chunk.js.map",
     "runtime-main.js": "/samaj-app/static/js/runtime-main.0a33c77d.js",
     "runtime-main.js.map": "/samaj-app/static/js/runtime-main.0a33c77d.js.map",
     "static/css/2.764ccc25.chunk.css": "/samaj-app/static/css/2.764ccc25.chunk.css",
     "static/js/2.3fd4c6bb.chunk.js": "/samaj-app/static/js/2.3fd4c6bb.chunk.js",
     "static/js/2.3fd4c6bb.chunk.js.map": "/samaj-app/static/js/2.3fd4c6bb.chunk.js.map",
     "index.html": "/samaj-app/index.html",
-    "precache-manifest.69c39cdfa2f2b4fee8523d72f7216f10.js": "/samaj-app/precache-manifest.69c39cdfa2f2b4fee8523d72f7216f10.js",
+    "precache-manifest.7e61488bdddc855bfb1e42f8e15e09ec.js": "/samaj-app/precache-manifest.7e61488bdddc855bfb1e42f8e15e09ec.js",
     "service-worker.js": "/samaj-app/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/samaj-app/static/css/2.764ccc25.chunk.css.map",
     "static/css/main.c30052a1.chunk.css.map": "/samaj-app/static/css/main.c30052a1.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.764ccc25.chunk.css",
     "static/js/2.3fd4c6bb.chunk.js",
     "static/css/main.c30052a1.chunk.css",
-    "static/js/main.33473d87.chunk.js"
+    "static/js/main.64bd1e80.chunk.js"
   ]
 }
