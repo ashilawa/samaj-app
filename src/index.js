@@ -8,7 +8,7 @@ import Index from "./views/Index";
 import About from "./views/About";
 import Gallery from "./views/Gallery";
 import Trust from "./views/Trust";
-import Stats from "./views/Stats";
+import Srm from "./views/Srm";
 import Contact from "./views/Contact";
 
 import NotFound from "./views/NotFound";
@@ -22,7 +22,7 @@ ReactDOM.render(
       <Route exact path="/" component={Index} />
       <Route path="/about" component={About} />
       <Route path="/gallery" component={Gallery} />
-      <Route path="/stats" component={Stats} />
+      <Route path="/srm" component={Srm} />
       <Route path="/contact" component={Contact} />
       <Route path="/trust" component={Trust} />
       {/* Only useful in development mode */}

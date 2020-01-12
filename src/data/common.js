@@ -1,20 +1,30 @@
 const data = {
   trustPage: {
-    title: 'विश्वस्त मंडळ'
+    title: 'Working Committee',
+    submenu: [{
+      label: "Present Office Bearers",
+      value: 'currentTrustees'
+    },{
+      label: "Past Committees",
+      value: 'previous'
+    },{
+      label: "Ex-President and Secretory",
+      value: 'president'
+    }]
   },
-  section: [{
-    label: "विश्वस्त",
-    value: 'currentTrustees'
-  },{
-    label: "संस्थेचे अध्यक्ष व कालवधी",
-    value: 'president'
-  },{
-    label: "संस्थेची कार्यकारणी",
-    value: 'previous'
-  }],
-  location: {
-    label: "Current city",
-    value: "New York, NY"
-  }
+  srm: {
+    title: 'About Saint Rohidas',
+    submenu: [{
+      label: "History",
+      value: 'history'
+    },{
+      label: "Available Litrature",
+      value: 'litrature'
+    },{
+      label: "Saint Rohidas Bus Stand Kurla",
+      value: 'busstand'
+    }]
+  },
+  
 };
 export default data;

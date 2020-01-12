@@ -1,7 +1,7 @@
 const data = [
   {
     path: "/",
-    label: "logo",
+    label: "RSM",
     index: true
   },
   {
@@ -10,7 +10,7 @@ const data = [
   },
   {
     path: "/trust",
-    label: "Board of Trustees"
+    label: "Working Committee"
   },
   {
     path: "/gallery",
@@ -23,6 +23,10 @@ const data = [
   {
     path: "/contact",
     label: "Contact Us"
+  },
+  {
+    path: "/srm",
+    label: "About Saint Rohidas"
   }
 ];
 
