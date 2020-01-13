@@ -1,13 +1,12 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
 
-const CurrentTrustees = ({ data, title }) => (
+const CurrentTrustees = ({ data }) => (
   <div className="education">
-    <div className="link-to" id={title.value} />
     <div className="title">
-      <h3>{title.label}</h3>
+      <h3>{data.label}</h3>
     </div>
-    <Table striped bordered hover size="sm" responsive>
+    <Table striped bordered hover responsive>
       <thead>
         <tr>
           {data.heading.map(s => (
