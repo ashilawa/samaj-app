@@ -18,7 +18,7 @@ class Main extends Component {
           defaultTitle="Rohidas Samaj"
         />
         <Header />
-        {/* <div id="main">{this.props.children}</div> */}
+        <div id="main">{this.props.children}</div>
         {!this.props.fullPage && <Nav />}
       </div>
     );

@@ -31,11 +31,11 @@ const Srm = () => (
         <Nav
           fill
           variant="tabs"
-          //  defaultActiveKey={`/${common.srm.submenu[0].value}`}
+            defaultActiveKey={`/`}
         >
           {common.srm.submenu.map(sec => (
             <Nav.Item>
-              <Nav.Link to="/busstand">{sec.label}</Nav.Link>
+              <Nav.Link href={`/srm/${sec.value}`}>{sec.label}</Nav.Link>
             </Nav.Item>
           ))}
         </Nav>
@@ -53,7 +53,8 @@ const Srm = () => (
 
         <Router>
           <Switch>
-            <Route exact path="/srm" component={History} />
+          <Route exact path="/srm/" component={History} />
+            <Route exact path="/srm/history" component={History} />
             <Route path="/srm/litrature" component={Litrature} />
             <Route path="/srm/busstand" component={Stand} />
           </Switch>
