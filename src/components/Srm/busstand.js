@@ -1,12 +1,11 @@
 import React from "react";
 const Stand = () => (
- 
- <div >
-   <div className="link-to" id="busstand" />
+  <div className="body">
+    <div className="link-to" id="busstand" />
     <div className="title">
       <h3>Saint rohidas bus Stand</h3>
     </div>
-  Bus Stand
+    Bus Stand
   </div>
 );
 

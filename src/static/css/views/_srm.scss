@@ -26,6 +26,19 @@
     }
   }
 
+  .body {
+    padding: 1em;
+    .title {
+      text-align: center;
+    }
+    .content {
+      margin: 1em;
+      p {
+        margin: 0;
+      }
+    }
+  }
+
   @include breakpoint(large) {
     margin: 0 0 _size(section-spacing) 0;
     text-align: center;

@@ -69,12 +69,14 @@
 @import "views/about";
 @import "views/contact";
 @import "views/notFound";
-@import "views/resume";
+@import "views/trust";
 @import "views/skills";
 @import "views/srm";
 
-.header-withoutspace
-{
+.header-withoutspace {
   letter-spacing: 0em;
+}
 
+.table-td-center {
+  text-align: center;
 }

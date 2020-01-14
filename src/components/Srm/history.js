@@ -1,12 +1,12 @@
 import React from "react";
 
 const History = () => (
-  <div>
+  <div className="body">
     <div className="link-to" id="history" />
     <div className="title">
       <h3>History</h3>
     </div>
-    <p>
+    <p className="content">
       संत रोहिदासांना महाराष्ट्रात ‘रोहिदास’ म्हणतात, पण देशातील अनेक प्रांतात
       त्यांना वेगवेगळ्या नावाने ओळखले जाते. ज्या उत्तर प्रदेशातील काशी जवळील
       मांडूर गावी त्यांचा जन्म झाला, तिथे त्यांना ‘रविदास’ नावाने ओळखले जाते.

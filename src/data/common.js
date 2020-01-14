@@ -3,15 +3,15 @@ const data = {
     title: "Working Committee",
     submenu: [
       {
-        label: "Present Office Bearers",
+        label: "PRESENT OFFICE BEARERS",
         value: "currentTrustees"
       },
       {
-        label: "Past Committees",
-        value: "previous"
+        label: "LIFE TRUSTEES",
+        value: "liveTrustees"
       },
       {
-        label: "Ex-President and Secretory",
+        label: "EX-PRESIDENTS",
         value: "president"
       }
     ]

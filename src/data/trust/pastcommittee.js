@@ -1,30 +1,49 @@
 const pastCommitte = {
-  heading: ["पद ", "नावं"],
+  menu: "liveTrustees",
+  heading: "LIFE TRUSTEES",
   body: [
-    {
-      position: "अध्यक्ष",
-      name: "xxxx"
-    },
-    {
-      position: "उपाध्यक्ष",
-      name: "xxx"
-    },
-    {
-      position: "कार्याध्यक्ष",
-      name: "xxx"
-    },
-    {
-      position: "सर चिटणीस",
-      name: "xx"
-    },
-    {
-      position: "चिटणीस",
-      name: "xxxx"
-    },
-    {
-      position: "खजिनदार",
-      name: "xxxx"
-    }
+    [
+      {
+        position: "XX",
+        name: "XX",
+        mobile: "1111100000",
+        available: "Monday & Friday"
+      },
+      {
+        position: "XX",
+        name: "XX",
+        mobile: "1111100000",
+        available: "Monday & Friday"
+      }
+    ],
+    [
+      {
+        position: "XX",
+        name: "XX",
+        mobile: "1111100000",
+        available: "Monday & Friday"
+      },
+      {
+        position: "XX",
+        name: "XX",
+        mobile: "1111100000",
+        available: "Monday & Friday"
+      }
+    ],
+    [
+      {
+        position: "XX",
+        name: "XX",
+        mobile: "1111100000",
+        available: "Monday & Friday"
+      },
+      {
+        position: "XX",
+        name: "XX",
+        mobile: "1111100000",
+        available: "Monday & Friday"
+      }
+    ]
   ]
 };
 

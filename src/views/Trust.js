@@ -1,66 +1,51 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Helmet from "react-helmet";
 
 import Main from "../layouts/Main";
 
-import CurrentTrustees from "../components/Trust/CurrentTrustees";
+import CurrentTrustees from "../components/Trust/currentTrustees";
 
 import currentCommitte from "../data/trust/currentCommitte";
 
 import common from "../data/common";
 import Nav from "react-bootstrap/Nav";
+import LifeTrustees from "../components/Trust/lifeTrustees";
+import ExPresident from "../components/Trust/exPresident";
 
-function Trust() {
-  const [currentCommitteTab, setCurrentCommitteTab] = useState(
-    currentCommitte[0]
-  );
-
-  function handleTrust(value) {
-    console.log(value);
-
-    const filteredTab = currentCommitte.find(
-      committee => committee.menu === value
-    );
-    console.log(filteredTab);
-    return filteredTab;
-  }
-
-  return (
-    <Main>
-      <Helmet title="Trust" />
-      <article className="post" id="trust">
-        <header>
-          <div className="title">
-            <h2>
-              <Link to="trust">{common.trustPage.title}</Link>
-            </h2>
-          </div>
-        </header>
-        <Nav
-          variant="tabs"
-          defaultActiveKey={`#${common.trustPage.submenu[0].value}`}
-        >
-          {common.trustPage.submenu.map(sec => (
-            <Nav.Item>
-              <Nav.Link
+const Trust = () => (
+  <Main>
+    <Helmet title="Trust" />
+    <article className="post" id="trust">
+      <header>
+        <div className="title ">
+          <h2>
+            <Link to="trust">{common.trustPage.title}</Link>
+          </h2>
+        </div>
+      </header>
+      <Nav fill justify variant="tabs" defaultActiveKey={`/}`}>
+        {common.trustPage.submenu.map(sec => (
+          <Nav.Item>
+            {/* <Nav.Link
                 onClick={() => setCurrentCommitteTab(handleTrust(sec.value))}
               >
                 {sec.label}
-              </Nav.Link>
-            </Nav.Item>
-          ))}
-        </Nav>
-
-        <CurrentTrustees data={currentCommitteTab} />
-
-        {/* <Experience data={positions} />
-      <Skills skills={skills} categories={categories} />
-      <Courses data={courses} />
-      <References /> */}
-      </article>
-    </Main>
-  );
-}
+              </Nav.Link> */}
+            <Nav.Link href={`/trust/${sec.value}`}>{sec.label}</Nav.Link>
+          </Nav.Item>
+        ))}
+      </Nav>
+      <Router>
+        <Switch>
+          <Route exact path="/trust/" component={CurrentTrustees} />
+          <Route path="/trust/currentTrustees" component={CurrentTrustees} />
+          <Route path="/trust/liveTrustees" component={LifeTrustees} />
+          <Route path="/trust/president" component={ExPresident} />
+        </Switch>
+      </Router>
+    </article>
+  </Main>
+);
 
 export default Trust;
