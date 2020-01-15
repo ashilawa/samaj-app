@@ -9,6 +9,7 @@
     "@fortawesome/fontawesome-free-regular": "^5.0.13",
     "@fortawesome/fontawesome-svg-core": "^1.2.21",
     "@fortawesome/react-fontawesome": "^0.1.8",
+    "@opuscapita/react-responsive-navbar": "^3.4.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
