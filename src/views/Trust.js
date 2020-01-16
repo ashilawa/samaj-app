@@ -1,17 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Helmet from "react-helmet";
 
 import Main from "../layouts/Main";
-
-import CurrentTrustees from "../components/Trust/currentTrustees";
-
-import currentCommitte from "../data/trust/currentCommitte";
-
 import common from "../data/common";
 import Nav from "react-bootstrap/Nav";
 import LifeTrustees from "../components/Trust/lifeTrustees";
 import ExPresident from "../components/Trust/exPresident";
+import CurrentTrustees from "../components/Trust/CurrentTrustees";
 
 const Trust = () => (
   <Main>

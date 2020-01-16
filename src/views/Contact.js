@@ -1,36 +1,34 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
-import Helmet from 'react-helmet';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-import Main from '../layouts/Main';
-
-
-// Validates the first half of an email address.
-// const validateText = (text) => {
-//   NOTE: Passes RFC 5322 but not tested on google's standard.
-//   eslint-disable-next-line no-useless-escape
-//   const re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))$/;
-//   return re.test(text) || text.length === 0;
-// };
+/* eslint-disable jsx-a11y/iframe-has-title */
+import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
+import Helmet from "react-helmet";
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+// import "../static/css/views/_test.scss";
+import faAddressCard from "@fortawesome/fontawesome-free-regular/faAddressCard";
+import Main from "../layouts/Main";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import faEnvelope from "@fortawesome/fontawesome-free-regular/faEnvelope";
 
 const messages = [
-  'hi',
-  'hello',
-  'hola',
-  'you-can-email-me-at-literally-anything! Really',
-  'well, not anything. But most things',
-  'like-this',
-  'or-this',
-  'but not this :(  ',
-  'you.can.also.email.me.with.specific.topics.like',
-  'just-saying-hi',
-  'please-work-for-us',
-  'help',
-  'admin',
-  'or-I-really-like-your-website',
-  'I\'ll-stop-distracting-you-now',
-  'thanks',
+  "hi",
+  "hello",
+  "hola",
+  "you-can-email-me-at-literally-anything! Really",
+  "well, not anything. But most things",
+  "like-this",
+  "or-this",
+  "but not this :(  ",
+  "you.can.also.email.me.with.specific.topics.like",
+  "just-saying-hi",
+  "please-work-for-us",
+  "help",
+  "admin",
+  "or-I-really-like-your-website",
+  "I'll-stop-distracting-you-now",
+  "thanks"
 ];
 
 const useInterval = (callback, delay) => {
@@ -60,21 +58,24 @@ const Contact = () => {
   const [char, updateChar] = useState(messages[idx].length); // points to current char
   const [isActive, setIsActive] = useState(true); // disable when all messages are printed
 
-  useInterval(() => {
-    let newIdx = idx;
-    let newChar = char;
-    if (char - hold >= messages[idx].length) {
-      newIdx += 1;
-      newChar = 0;
-    }
-    if (newIdx === messages.length) {
-      setIsActive(false);
-    } else {
-      updateMessage(messages[newIdx].slice(0, newChar));
-      updateIter(newIdx);
-      updateChar(newChar + 1);
-    }
-  }, isActive ? delay : null);
+  useInterval(
+    () => {
+      let newIdx = idx;
+      let newChar = char;
+      if (char - hold >= messages[idx].length) {
+        newIdx += 1;
+        newChar = 0;
+      }
+      if (newIdx === messages.length) {
+        setIsActive(false);
+      } else {
+        updateMessage(messages[newIdx].slice(0, newChar));
+        updateIter(newIdx);
+        updateChar(newChar + 1);
+      }
+    },
+    isActive ? delay : null
+  );
 
   return (
     <Main>
@@ -82,32 +83,91 @@ const Contact = () => {
       <article className="post" id="contact">
         <header>
           <div className="title">
-            <h2><Link to="/contact">Contact</Link></h2>
+            <h2>
+              <Link to="/contact">Contact</Link>
+            </h2>
           </div>
         </header>
-        {/* <div className="email-at">
-          <p>Feel free to get in touch. You can email me at: </p>
-          <div
-            className="inline-container"
-            style={validateText(message) ? {} : { color: 'red' }}
-            onMouseEnter={() => setIsActive(false)}
-            onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
-          >
-            <a href={validateText(message) ? `mailto:${message}@mldangelo.com` : ''}>
-              <span>{message}</span>
-              <span>@mldangelo.com</span>
-            </a>
+        {/* <div className="mapouter">
+            <div className="gmap_canvas">
+              <iframe
+                width="600"
+                height="500"
+                id="gmap_canvas"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCiUbr68SBoGzA2AbzS-RACUuShXE6p-hM
+      &q=rohidas+samaj+kurla"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+              ></iframe>
+              ><a href="https://www.embedgooglemap.org">embedgooglemap.org</a>
+            </div>
+          </div> */}
+        <Container>
+          <Row>
+            <Col>
+              <div className="container contact-div">
+                <div>
+                  <FontAwesomeIcon className="fa-icon" icon={faAddressCard} />
+                </div>
+                <div>
+                  <h3>Rohidas Samaj Panchayat Sangh</h3>
+                  <p>
+                    Sant Rohidas Samaj Mandir, LBS Rd, Kurla West, Mumbai,
+                    Maharashtra 400070
+                  </p>
+                </div>
+              </div>
+            </Col>
+
+            <Col>
+              <div className="container contact-div">
+                <div>
+                  <FontAwesomeIcon className="fa-icon" icon={faPhoneAlt} />
+                </div>
+                <div>
+                  <h3>+91 98252xxxxx</h3>
+                </div>
+              </div>
+            </Col>
+            <Col>
+              <div className="container contact-div">
+                <div>
+                  <FontAwesomeIcon className="fa-icon" icon={faEnvelope} />
+                </div>
+                <div>
+                  <h3>rohidassamaj@gmail.com</h3>
+                </div>
+              </div>
+            </Col>
+          </Row>
+          <div className="container contact-div">
+            <div className="mapouter">
+              <div className="gmap_canvas">
+                <iframe
+                  width="600"
+                  height="500"
+                  id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=rohidas+samaj+kurla&amp;t=m&amp;z=17&amp;output=embed&amp;iwloc=near"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="1"
+                  marginwidth="1"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
           </div>
-        </div> */}
-        {/* <ul className="icons">
-          {data.map((s) => (
-            <li key={s.label}>
-              <a href={s.link}>
-                <FontAwesomeIcon icon={s.icon} />
-              </a>
-            </li>
-          ))}
-        </ul> */}
+        </Container>
+        {/* <iframe
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          src="https://maps.google.com/maps?q=rohidas+samaj+kurla&amp;t=m&amp;z=17&amp;output=embed&amp;iwloc=near"
+          aria-label="ROHIDAS SAMAJ PANCHAYAT SANGH"
+        ></iframe> */}
       </article>
     </Main>
   );

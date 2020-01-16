@@ -80,3 +80,15 @@
 .table-td-center {
   text-align: center;
 }
+
+.mapouter {
+  position: relative;
+  text-align: center;
+  height: 500px;
+  width: 600px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  display: block;
+}
