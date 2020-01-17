@@ -23,8 +23,47 @@
 
 .contact-div {
   text-align: center;
+  // padding: 5%;
+}
+
+.map-div {
+  padding: 5%;
 }
 
 .fa-icon {
   font-size: 4em;
+}
+.card-header {
+  text-align: center;
+  padding: 5%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("/public/images/contact_bg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-title {
+  @include vendor("flex-grow", "1");
+  -ms-flex: 1;
+  padding: (_size(section-spacing) * 1.25) _size(section-spacing)
+    (_size(section-spacing) * 1.1) _size(section-spacing);
+
+  h2 {
+    font-weight: _font(weight-heading-extrabold);
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
 }

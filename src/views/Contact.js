@@ -11,6 +11,7 @@ import Main from "../layouts/Main";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import faEnvelope from "@fortawesome/fontawesome-free-regular/faEnvelope";
+import Card from "react-bootstrap/Card";
 
 const messages = [
   "hi",
@@ -82,7 +83,7 @@ const Contact = () => {
       <Helmet title="Contact" />
       <article className="post" id="contact">
         <header>
-          <div className="title">
+          <div className="contact-title">
             <h2>
               <Link to="/contact">Contact</Link>
             </h2>
@@ -104,62 +105,80 @@ const Contact = () => {
               ><a href="https://www.embedgooglemap.org">embedgooglemap.org</a>
             </div>
           </div> */}
-        <Container>
-          <Row>
-            <Col>
-              <div className="container contact-div">
-                <div>
-                  <FontAwesomeIcon className="fa-icon" icon={faAddressCard} />
-                </div>
-                <div>
-                  <h3>Rohidas Samaj Panchayat Sangh</h3>
-                  <p>
-                    Sant Rohidas Samaj Mandir, LBS Rd, Kurla West, Mumbai,
-                    Maharashtra 400070
-                  </p>
-                </div>
-              </div>
-            </Col>
+        <div className="bg">
+          <Container fluid="true">
+            <Row>
+              <Col>
+                <Card style={{ height: "100%" }}>
+                  {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+                  <Card.Header className="card-header">
+                    <FontAwesomeIcon className="fa-icon" icon={faAddressCard} />
+                  </Card.Header>
+                  <Card.Body>
+                    <Card.Title>
+                      <h4 className="contact-div">
+                        <a
+                          href="https://goo.gl/maps/vj5icsBSY8upifkR6"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Rohidas Samaj Kurla
+                        </a>
+                      </h4>
+                    </Card.Title>
+                    <Card.Text className="contact-div">
+                      Sant Rohidas Samaj Mandir, LBS Rd, Kurla West, Mumbai,
+                      Maharashtra 400070
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
 
-            <Col>
-              <div className="container contact-div">
-                <div>
-                  <FontAwesomeIcon className="fa-icon" icon={faPhoneAlt} />
-                </div>
-                <div>
-                  <h3>+91 98252xxxxx</h3>
-                </div>
-              </div>
-            </Col>
-            <Col>
-              <div className="container contact-div">
-                <div>
-                  <FontAwesomeIcon className="fa-icon" icon={faEnvelope} />
-                </div>
-                <div>
-                  <h3>rohidassamaj@gmail.com</h3>
-                </div>
-              </div>
-            </Col>
-          </Row>
-          <div className="container contact-div">
-            <div className="mapouter">
-              <div className="gmap_canvas">
+              <Col>
+                <Card style={{ height: "100%" }}>
+                  {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+                  <Card.Header className="card-header">
+                    <FontAwesomeIcon className="fa-icon" icon={faPhoneAlt} />
+                  </Card.Header>
+                  <Card.Body>
+                    <Card.Title>
+                      <h4 className="contact-div">+91 98252xxxxx</h4>
+                    </Card.Title>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col>
+                <Card style={{ height: "100%" }}>
+                  {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+                  <Card.Header className="card-header">
+                    <FontAwesomeIcon className="fa-icon" icon={faEnvelope} />
+                  </Card.Header>
+                  <Card.Body>
+                    <Card.Title>
+                      <p className="contact-div">rohidassamaj@gmail.com</p>
+                    </Card.Title>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </Row>
+            <div className="container-fluid pt-3 contact-div">
+              <div className="map-div">
                 <iframe
-                  width="600"
+                  width="800"
                   height="500"
                   id="gmap_canvas"
-                  src="https://maps.google.com/maps?q=rohidas+samaj+kurla&amp;t=m&amp;z=17&amp;output=embed&amp;iwloc=near"
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCiUbr68SBoGzA2AbzS-RACUuShXE6p-hM
+                  &amp;q=rohidas+samaj+kurla"
                   frameborder="0"
                   scrolling="no"
-                  marginheight="1"
-                  marginwidth="1"
-                  allowFullScreen
+                  marginheight="0"
+                  marginwidth="0"
                 ></iframe>
               </div>
             </div>
-          </div>
-        </Container>
+          </Container>
+        </div>
+
         {/* <iframe
           frameborder="0"
           scrolling="no"
