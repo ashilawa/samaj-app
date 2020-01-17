@@ -13,71 +13,7 @@ import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import faEnvelope from "@fortawesome/fontawesome-free-regular/faEnvelope";
 import Card from "react-bootstrap/Card";
 
-const messages = [
-  "hi",
-  "hello",
-  "hola",
-  "you-can-email-me-at-literally-anything! Really",
-  "well, not anything. But most things",
-  "like-this",
-  "or-this",
-  "but not this :(  ",
-  "you.can.also.email.me.with.specific.topics.like",
-  "just-saying-hi",
-  "please-work-for-us",
-  "help",
-  "admin",
-  "or-I-really-like-your-website",
-  "I'll-stop-distracting-you-now",
-  "thanks"
-];
-
-const useInterval = (callback, delay) => {
-  const savedCallback = useRef();
-
-  useEffect(() => {
-    savedCallback.current = callback;
-  }, [callback]);
-
-  useEffect(() => {
-    if (delay) {
-      const id = setInterval(() => {
-        savedCallback.current();
-      }, delay);
-      return () => clearInterval(id);
-    }
-    return () => {}; // pass linter
-  }, [delay]);
-};
-
 const Contact = () => {
-  const hold = 50; // ticks to wait after message is complete before rendering next message
-  const delay = 50; // tick length in mS
-
-  const [idx, updateIter] = useState(0); // points to current message
-  const [message, updateMessage] = useState(messages[idx]);
-  const [char, updateChar] = useState(messages[idx].length); // points to current char
-  const [isActive, setIsActive] = useState(true); // disable when all messages are printed
-
-  useInterval(
-    () => {
-      let newIdx = idx;
-      let newChar = char;
-      if (char - hold >= messages[idx].length) {
-        newIdx += 1;
-        newChar = 0;
-      }
-      if (newIdx === messages.length) {
-        setIsActive(false);
-      } else {
-        updateMessage(messages[newIdx].slice(0, newChar));
-        updateIter(newIdx);
-        updateChar(newChar + 1);
-      }
-    },
-    isActive ? delay : null
-  );
-
   return (
     <Main>
       <Helmet title="Contact" />
@@ -85,26 +21,11 @@ const Contact = () => {
         <header>
           <div className="contact-title">
             <h2>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact">Contact Us</Link>
             </h2>
           </div>
         </header>
-        {/* <div className="mapouter">
-            <div className="gmap_canvas">
-              <iframe
-                width="600"
-                height="500"
-                id="gmap_canvas"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCiUbr68SBoGzA2AbzS-RACUuShXE6p-hM
-      &q=rohidas+samaj+kurla"
-                frameborder="0"
-                scrolling="no"
-                marginheight="0"
-                marginwidth="0"
-              ></iframe>
-              ><a href="https://www.embedgooglemap.org">embedgooglemap.org</a>
-            </div>
-          </div> */}
+
         <div className="bg">
           <Container fluid="true">
             <Row>
