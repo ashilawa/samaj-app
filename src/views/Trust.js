@@ -23,15 +23,16 @@ const Trust = () => (
       <Nav fill justify variant="tabs" defaultActiveKey={`/}`}>
         {common.trustPage.submenu.map(sec => (
           <Nav.Item>
-            {/* <Nav.Link
-                onClick={() => setCurrentCommitteTab(handleTrust(sec.value))}
-              >
-                {sec.label}
-              </Nav.Link> */}
-            <Nav.Link href={`/trust/${sec.value}`}>{sec.label}</Nav.Link>
+            <Nav.Link
+              className="btn btn-danger rounded"
+              href={`/trust/${sec.value}`}
+            >
+              {sec.label}
+            </Nav.Link>
           </Nav.Item>
         ))}
       </Nav>
+
       <Router>
         <Switch>
           <Route exact path="/trust/" component={CurrentTrustees} />

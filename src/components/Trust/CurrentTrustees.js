@@ -7,7 +7,7 @@ const CurrentTrustees = () => (
       <Table striped bordered hover responsive>
         <thead>
           <tr>
-            <th className="table-td-center" colSpan="2">
+            <th className="table-td-center table-header-bg" colSpan="2">
               {data.heading}
             </th>
           </tr>

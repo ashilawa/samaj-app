@@ -15,9 +15,9 @@ body {
   @include vendor("justify-content", "space-between");
   background-color: _palette(bg);
   border-bottom: solid 1px _palette(border);
-  height: 3.5em;
+  height: 5em;
   left: 0;
-  line-height: 3.5em;
+  line-height: 5em;
   position: fixed;
   top: 0;
   width: 100%;
@@ -75,7 +75,7 @@ body {
         a {
           border-bottom: 0;
           font-family: _font(family-heading);
-          font-size: 0.7em;
+          font-size: em;
           font-weight: _font(weight-heading);
           letter-spacing: _font(kerning-heading);
           text-transform: uppercase;
@@ -145,8 +145,8 @@ body {
   }
 
   @include breakpoint(small) {
-    height: 2.75em;
-    line-height: 2.75em;
+    height: 4em;
+    line-height: 4em;
 
     h1 {
       padding: 0 0 0 1em;
@@ -184,7 +184,7 @@ body {
 .bm-menu {
   background: _palette(bg);
   padding: 2.5em 1.5em 0;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 /* Wrapper for item list */
@@ -201,10 +201,12 @@ body {
 #header .main .close-menu {
   border: 0;
   z-index: 10000;
+  font-size: -webkit-xxx-large;
 }
 
 #header .main .open-menu {
   border: 0;
+  font-size: -webkit-xxx-large;
 }
 
 .open-menu {
@@ -231,5 +233,5 @@ body {
 }
 
 .custom {
-  height: 50px;
+  height: 70px;
 }
