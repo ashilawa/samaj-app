@@ -15,10 +15,10 @@ body {
   @include vendor("justify-content", "space-between");
   background-color: _palette(bg);
   border-bottom: solid 1px _palette(border);
-  height: 5em;
+  height: 4em;
   left: 0;
-  line-height: 5em;
-  position: fixed;
+  line-height: 4em;
+  position: absolute;
   top: 0;
   width: 100%;
   z-index: _misc(z-index-base);

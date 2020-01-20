@@ -7,7 +7,7 @@ import routes from "../../data/routes";
 const Header = () => (
   <header id="header">
     <h1>
-      <Link to="/" className="logo">
+      <Link to="/home" className="logo">
         <img
           style={{ height: "50px" }}
           src={`/images/Mobile-Logo.jpg`}

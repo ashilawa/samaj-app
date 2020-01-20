@@ -1,11 +1,11 @@
 const data = [
   {
-    path: "/",
+    path: "/home",
     label: "RSM",
     index: true
   },
   {
-    path: "/",
+    path: "/home",
     label: "Home"
   },
   {

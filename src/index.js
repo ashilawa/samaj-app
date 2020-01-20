@@ -20,6 +20,7 @@ ReactDOM.render(
   <Router>
     <Switch>
       <Route exact path="/" component={Index} />
+      <Route path="/home" component={Index} />
       <Route path="/about" component={About} />
       <Route path="/gallery" component={Gallery} />
       <Route path="/srm" component={Srm} />
