@@ -1,6 +1,5 @@
 {
   "name": "samaj",
-  "homepage": "https://ashilawa.github.io/samaj-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
