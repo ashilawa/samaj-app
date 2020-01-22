@@ -15,9 +15,9 @@ body {
   @include vendor("justify-content", "space-between");
   background-color: _palette(bg);
   border-bottom: solid 1px _palette(border);
-  height: 4em;
+  height: 5em;
   left: 0;
-  line-height: 4em;
+  line-height: 5em;
   position: absolute;
   top: 0;
   width: 100%;
@@ -80,7 +80,10 @@ body {
           font-weight: _font(weight-heading);
           letter-spacing: _font(kerning-heading);
           text-transform: uppercase;
-
+          &:hover {
+            color: #f70c8d !important;
+            border-bottom: 1px solid #f70c8d;
+          }
           &.active {
             color: rgb(238, 8, 150);
             font-weight: _font(weight-heading-bold);
@@ -90,6 +93,14 @@ body {
     }
   }
 
+  .logo {
+    img {
+      height: 100%;
+      width: 100%;
+      max-height: 70px;
+      max-width: 287px;
+    }
+  }
   .main {
     height: inherit;
     line-height: inherit;
@@ -190,7 +201,7 @@ body {
 .bm-menu {
   background: _palette(bg);
   padding: 2.5em 1.5em 0;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 /* Wrapper for item list */
@@ -238,6 +249,3 @@ body {
   }
 }
 
-.custom {
-  height: 70px;
-}

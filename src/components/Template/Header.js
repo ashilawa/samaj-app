@@ -9,9 +9,8 @@ const Header = () => (
     <h1>
       <Link to="/home" className="logo">
         <img
-          style={{ height: "50px" }}
           src={`/images/Header-Logo.jpg`}
-          alt=""
+          alt="logo"
         />
       </Link>
     </h1>

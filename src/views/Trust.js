@@ -5,15 +5,15 @@ import Helmet from "react-helmet";
 import Main from "../layouts/Main";
 import common from "../data/common";
 import LifeTrustees from "../components/Trust/lifeTrustees";
-import ExPresident from "../components/Trust/exPresident";
-import CurrentTrustees from "../components/Trust/CurrentTrustees";
+import PastTrustees from "../components/Trust/pastTrustees";
+import PresentTrustees from "../components/Trust/presentTrustees";
 import { Tabs } from "react-bootstrap";
 import { Tab } from "react-bootstrap";
 
 const tabRoutes = {
-  currentTrustees: CurrentTrustees,
-  liveTrustees: LifeTrustees,
-  president: ExPresident
+  present: PresentTrustees,
+  life: LifeTrustees,
+  past: PastTrustees
 }
 
 const Trust = () => (
@@ -28,9 +28,9 @@ const Trust = () => (
         </div>
       </header>
 
-      <Tabs defaultActiveKey="currentTrustees" id="uncontrolled-tab-example">
+      <Tabs defaultActiveKey="present" >
         {
-          common.trustPage.submenu.map(sec => {
+          common.trustees.submenu.map(sec => {
             const TabComponent = tabRoutes[sec.value];
             return (
               <Tab  eventKey={sec.value} title={sec.label} key={sec.value}>

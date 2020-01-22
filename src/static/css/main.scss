@@ -70,6 +70,7 @@
 @import "views/contact";
 @import "views/notFound";
 @import "views/trust";
+@import "views/committee";
 @import "views/skills";
 @import "views/srm";
 
@@ -91,4 +92,32 @@
   overflow: hidden;
   background: none !important;
   display: block;
+}
+.nav.nav-tabs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+
+  a {
+    border: none;
+  }
+
+  .nav-link {
+
+    &:hover {
+      color: #f70c8d !important;
+    }
+
+    // &:focus {
+    //   color: red !important;
+    //   border-bottom: 1px solid red;
+    // }
+
+    &.active {
+      color:  #f70c8d  !important;
+      border-bottom: 1px solid  #f70c8d ;
+    }
+  }
 }

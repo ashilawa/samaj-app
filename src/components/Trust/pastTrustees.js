@@ -1,6 +1,6 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
-import data from "../../data/committee/pastcommittee";
+import data from "../../data/trust/pastTrustees";
 const PastTrustees = () => (
   <div className="body">
     <div className="content">

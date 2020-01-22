@@ -1,6 +1,6 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
-import data from "../../data/committee/currentCommitte";
+import data from "../../data/trust/presentTrustees";
 const LifeTrustees = () => (
   <div className="body">
     <div className="content">

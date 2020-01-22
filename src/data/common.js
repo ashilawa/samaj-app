@@ -4,7 +4,7 @@ const data = {
     submenu: [
       {
         label: "PRESENT OFFICE BEARERS",
-        value: "currentTrustees",
+        value: "present",
     },
       {
         label: "PAST OFFICE BEARERS",
@@ -19,13 +19,14 @@ const data = {
   trustees: {
     title: "Trustees",
     submenu: [
-      {
-        label: "LIFE TRUSTEES",
-        value: "life"
-      },
+     
       {
         label: "PRESENT TRUSTEES",
         value: "present"
+      },
+      {
+        label: "LIFE TRUSTEES",
+        value: "life"
       },
       {
         label: "PAST TRUSTEES",

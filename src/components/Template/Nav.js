@@ -12,7 +12,7 @@ const Nav = () => (
         <img src={`/images/Mobile-Logo.jpg`} alt="" />
       </Link>
       <header>
-        <h2 className="header-withoutspace">Rohidas Sudharak Mandal</h2>
+        <h2 >Rohidas Sudharak Mandal</h2>
         <p>
           <a href="">rohidassamaj@gmail.com</a>
         </p>

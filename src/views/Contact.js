@@ -18,8 +18,8 @@ const Contact = () => {
     <Main>
       <Helmet title="Contact" />
       <article className="post" id="contact">
-        <header>
-          <div className="contact-title">
+        <header >
+          <div className="title">
             <h2>
               <Link to="/contact">Contact Us</Link>
             </h2>
