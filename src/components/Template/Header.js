@@ -10,7 +10,7 @@ const Header = () => (
       <Link to="/home" className="logo">
         <img
           style={{ height: "50px" }}
-          src={`/images/Mobile-Logo.jpg`}
+          src={`/images/Header-Logo.jpg`}
           alt=""
         />
       </Link>

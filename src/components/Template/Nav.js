@@ -14,9 +14,7 @@ const Nav = () => (
       <header>
         <h2 className="header-withoutspace">Rohidas Sudharak Mandal</h2>
         <p>
-          <a href="">
-            rohidassamaj@gmail.com
-          </a>
+          <a href="">rohidassamaj@gmail.com</a>
         </p>
       </header>
     </section>
@@ -41,9 +39,7 @@ const Nav = () => (
           </li>
         ))}
       </ul>
-       <p className="copyright">
-        &copy; Akshay Shilawane.
-      </p>
+      <p className="copyright">&copy; Akshay Shilawane.</p>
     </section>
   </section>
 );
