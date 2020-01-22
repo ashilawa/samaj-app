@@ -23,7 +23,7 @@ const Trust = () => (
       <header>
         <div className="title ">
           <h2>
-            <Link to="trust">{common.trustPage.title}</Link>
+            <Link to="trustees">{common.trustees.title}</Link>
           </h2>
         </div>
       </header>

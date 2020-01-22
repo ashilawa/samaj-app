@@ -1,7 +1,7 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
-import data from "../../data/committee/currentCommitte";
-const LifeTrustees = () => (
+import data from "../../data/committee/pastcommittee";
+const PastTrustees = () => (
   <div className="body">
     <div className="content">
       <Table striped bordered hover responsive>
@@ -31,4 +31,4 @@ const LifeTrustees = () => (
   </div>
 );
 
-export default LifeTrustees;
+export default PastTrustees;

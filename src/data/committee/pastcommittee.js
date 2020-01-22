@@ -1,6 +1,6 @@
 const pastCommitte = {
-  menu: "liveTrustees",
-  heading: "LIFE TRUSTEES",
+  menu: "past",
+  heading: "PAST OFFICE BEARERS",
   body: [
     [
       {

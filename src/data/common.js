@@ -1,19 +1,35 @@
 const data = {
-  trustPage: {
+  committee: {
     title: "Working Committee",
     submenu: [
       {
         label: "PRESENT OFFICE BEARERS",
         value: "currentTrustees",
-        index: true
-      },
+    },
       {
-        label: "LIFE TRUSTEES",
-        value: "liveTrustees"
+        label: "PAST OFFICE BEARERS",
+        value: "past"
       },
       {
         label: "EX-PRESIDENTS",
         value: "president"
+      }
+    ]
+  },
+  trustees: {
+    title: "Trustees",
+    submenu: [
+      {
+        label: "LIFE TRUSTEES",
+        value: "life"
+      },
+      {
+        label: "PRESENT TRUSTEES",
+        value: "present"
+      },
+      {
+        label: "PAST TRUSTEES",
+        value: "past"
       }
     ]
   },

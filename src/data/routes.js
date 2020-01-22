@@ -9,8 +9,12 @@ const data = [
     label: "Home"
   },
   {
-    path: "/trust",
+    path: "/committee",
     label: "Working Committee"
+  },
+  {
+    path: "/trustees",
+    label: "trustees"
   },
   {
     path: "/gallery",

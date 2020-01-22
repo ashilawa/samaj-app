@@ -1,6 +1,6 @@
-const currentCommitte = {
-  menu: "currentTrustees",
-  heading: "PRESENT OFFICE BEARERS OF THE SANGH",
+const pastTrustees = {
+  menu: "past",
+  heading: "PAST TRUSTEES",
   body: [
     [
       {
@@ -46,4 +46,4 @@ const currentCommitte = {
     ]
   ]
 };
-export default currentCommitte;
+export default pastTrustees;
