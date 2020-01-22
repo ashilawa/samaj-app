@@ -128,3 +128,31 @@
     display: block;
   }
 }
+.nav.nav-tabs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+
+  a {
+    border: none;
+  }
+
+  .nav-link {
+
+    &:hover {
+      color: red !important;
+    }
+
+    // &:focus {
+    //   color: red !important;
+    //   border-bottom: 1px solid red;
+    // }
+
+    &.active {
+      color: red !important;
+      border-bottom: 1px solid red;
+    }
+  }
+}

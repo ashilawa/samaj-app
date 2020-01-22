@@ -1,13 +1,20 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 import Helmet from "react-helmet";
 
 import Main from "../layouts/Main";
 import common from "../data/common";
-import Nav from "react-bootstrap/Nav";
 import LifeTrustees from "../components/Trust/lifeTrustees";
 import ExPresident from "../components/Trust/exPresident";
 import CurrentTrustees from "../components/Trust/CurrentTrustees";
+import { Tabs } from "react-bootstrap";
+import { Tab } from "react-bootstrap";
+
+const tabRoutes = {
+  currentTrustees: CurrentTrustees,
+  liveTrustees: LifeTrustees,
+  president: ExPresident
+}
 
 const Trust = () => (
   <Main>
@@ -20,27 +27,21 @@ const Trust = () => (
           </h2>
         </div>
       </header>
-      <Nav fill justify variant="tabs" defaultActiveKey={`/}`}>
-        {common.trustPage.submenu.map(sec => (
-          <Nav.Item>
-            <Nav.Link
-              className="btn btn-danger rounded"
-              href={`/trust/${sec.value}`}
-            >
-              {sec.label}
-            </Nav.Link>
-          </Nav.Item>
-        ))}
-      </Nav>
 
-      <Router>
-        <Switch>
-          <Route exact path="/trust/" component={CurrentTrustees} />
-          <Route path="/trust/currentTrustees" component={CurrentTrustees} />
-          <Route path="/trust/liveTrustees" component={LifeTrustees} />
-          <Route path="/trust/president" component={ExPresident} />
-        </Switch>
-      </Router>
+      <Tabs defaultActiveKey="currentTrustees" id="uncontrolled-tab-example">
+        {
+          common.trustPage.submenu.map(sec => {
+            const TabComponent = tabRoutes[sec.value];
+            return (
+              <Tab  eventKey={sec.value} title={sec.label} key={sec.value}>
+                {<TabComponent />}
+              </Tab>
+            )
+
+          })
+        }
+      </Tabs>
+      
     </article>
   </Main>
 );
