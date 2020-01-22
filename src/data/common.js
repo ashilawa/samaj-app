@@ -4,7 +4,8 @@ const data = {
     submenu: [
       {
         label: "PRESENT OFFICE BEARERS",
-        value: "currentTrustees"
+        value: "currentTrustees",
+        index: true
       },
       {
         label: "LIFE TRUSTEES",

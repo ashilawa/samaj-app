@@ -2,11 +2,17 @@ import React from "react";
 import Helmet from "react-helmet";
 import Main from "../layouts/Main";
 import common from "../data/common";
-import Nav from "react-bootstrap/Nav";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 import History from "../components/Srm/history";
 import Litrature from "../components/Srm/litrature";
 import Stand from "../components/Srm/busstand";
+import { Tabs, Tab } from "react-bootstrap";
+
+const tabRoutes = {
+  history: History,
+  litrature: Litrature,
+  busstand: Stand
+};
 
 const Srm = () => (
   <Main>
@@ -21,21 +27,17 @@ const Srm = () => (
             <h2>Sant Rohidas Maharaj</h2>
           </header>
         </div>
-        <Nav fill justify variant="tabs" defaultActiveKey={`/`}>
-          {common.srm.submenu.map(sec => (
-            <Nav.Item>
-              <Nav.Link href={`/srm/${sec.value}`}>{sec.label}</Nav.Link>
-            </Nav.Item>
-          ))}
-        </Nav>
-        <Router>
-          <Switch>
-            <Route exact path="/srm/" component={History} />
-            <Route exact path="/srm/history" component={History} />
-            <Route path="/srm/litrature" component={Litrature} />
-            <Route path="/srm/busstand" component={Stand} />
-          </Switch>
-        </Router>
+
+        <Tabs defaultActiveKey="history" id="uncontrolled-tab-example">
+          {common.srm.submenu.map(sec => {
+            const TabComponent = tabRoutes[sec.value];
+            return (
+              <Tab eventKey={sec.value} title={sec.label} key={sec.value}>
+                {<TabComponent />}
+              </Tab>
+            );
+          })}
+        </Tabs>
       </section>
     </article>
   </Main>
