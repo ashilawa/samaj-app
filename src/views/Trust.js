@@ -13,7 +13,8 @@ import { Tab } from "react-bootstrap";
 const tabRoutes = {
   present: PresentTrustees,
   life: LifeTrustees,
-  past: PastTrustees
+  past: PastTrustees,
+  test: PastTrustees
 }
 
 const Trust = () => (
