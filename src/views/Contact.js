@@ -128,7 +128,11 @@ const Contact = () => {
                       <a href="https://api.whatsapp.com/send?phone=+917021885520">+91 7021885520</a></h4>
                     </Card.Title>
                     <Card.Text className="contact-div">
+<<<<<<< HEAD
                       <a href="https://api.whatsapp.com/send?phone=+917021885520">
+=======
+                      <a href="https://api.whatsapp.com/send?phone=8082008897">
+>>>>>>> 847d1ba... about submenu added and srm tab updated
                         Send Message
                       </a>
                     </Card.Text>
