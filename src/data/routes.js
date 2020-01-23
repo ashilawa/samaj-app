@@ -1,12 +1,7 @@
 const data = [
   {
     path: "/home",
-    label: "RSM",
-    index: true
-  },
-  {
-    path: "/home",
-    label: "Home"
+    label: "Home",
   },
   {
     path: "/committee",

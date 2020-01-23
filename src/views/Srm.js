@@ -2,15 +2,14 @@ import React from "react";
 import Helmet from "react-helmet";
 import Main from "../layouts/Main";
 import common from "../data/common";
-import { BrowserRouter as Link } from "react-router-dom";
 import History from "../components/Srm/history";
-import Litrature from "../components/Srm/litrature";
+import literature from "../components/Srm/literature";
 import Stand from "../components/Srm/busstand";
 import { Tabs, Tab } from "react-bootstrap";
 
 const tabRoutes = {
   history: History,
-  litrature: Litrature,
+  literature: literature,
   busstand: Stand
 };
 
@@ -19,16 +18,14 @@ const Srm = () => (
     <Helmet title="Srm" />
     <article className="post" id="srm">
       <section id="intro">
-        <div className="title" style={{ textAlign: "center" }}>
-          <Link to="/" className="logo">
-            <img src={`/images/Sant-Rohidas.png`} alt="" />
-          </Link>
+        <div className="title" >
+        
           <header>
-            <h2>Sant Rohidas Maharaj</h2>
+            <h2>{common.srm.title}</h2>
           </header>
         </div>
 
-        <Tabs defaultActiveKey="history" id="uncontrolled-tab-example">
+        <Tabs defaultActiveKey="history" >
           {common.srm.submenu.map(sec => {
             const TabComponent = tabRoutes[sec.value];
             return (

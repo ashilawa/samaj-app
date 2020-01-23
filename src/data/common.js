@@ -35,19 +35,40 @@ const data = {
     ]
   },
   srm: {
-    title: "About Saint Rohidas",
+    title: "संत रोहिदास",
     submenu: [
       {
-        label: "History",
+        label: "माहिती",
         value: "history"
       },
       {
-        label: "Available Litrature",
-        value: "litrature"
+        label: "उपलब्ध साहित्य - पुस्तके",
+        value: "literature"
       },
       {
-        label: "Saint Rohidas Bus Stand Kurla",
+        label: "बस स्टॅण्ड",
         value: "busstand"
+      }
+    ]
+  },
+  about: {
+    title: "About us",
+    submenu: [
+      {
+        label: "HISTORY",
+        value: "history"
+      },
+      {
+        label: "OUR ASSOCIATES",
+        value: "associates"
+      },
+      {
+        label: "AWARD WINNERS",
+        value: "awards"
+      },
+      {
+        label: "संलग्न पंचायती",
+        value: "panchayat"
       }
     ]
   }

@@ -5,7 +5,6 @@ import Helmet from "react-helmet";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-// import "../static/css/views/_test.scss";
 import faAddressCard from "@fortawesome/fontawesome-free-regular/faAddressCard";
 import Main from "../layouts/Main";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,12 +12,74 @@ import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import faEnvelope from "@fortawesome/fontawesome-free-regular/faEnvelope";
 import Card from "react-bootstrap/Card";
 
+// Validates the first half of an email address.
+const validateText = text => {
+  // NOTE: Passes RFC 5322 but not tested on google's standard.
+  // eslint-disable-next-line no-useless-escape
+  const re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))$/;
+  return re.test(text) || text.length === 0;
+};
+
+const messages = [
+  'hi',
+  'hello',
+  'You can email us at:',
+  'rsm',
+  'rsmkurla'
+
+];
+
+const useInterval = (callback, delay) => {
+  const savedCallback = useRef();
+
+  useEffect(() => {
+    savedCallback.current = callback;
+  }, [callback]);
+
+  useEffect(() => {
+    if (delay) {
+      const id = setInterval(() => {
+        savedCallback.current();
+      }, delay);
+      return () => clearInterval(id);
+    }
+    return () => {}; // pass linter
+  }, [delay]);
+};
+
 const Contact = () => {
+  const hold = 50; // ticks to wait after message is complete before rendering next message
+  const delay = 50; // tick length in mS
+
+  const [idx, updateIter] = useState(0); // points to current message
+  const [message, updateMessage] = useState(messages[idx]);
+  const [char, updateChar] = useState(messages[idx].length); // points to current char
+  const [isActive, setIsActive] = useState(true); // disable when all messages are printed
+
+  useInterval(
+    () => {
+      let newIdx = idx;
+      let newChar = char;
+      if (char - hold >= messages[idx].length) {
+        newIdx += 1;
+        newChar = 0;
+      }
+      if (newIdx === messages.length) {
+        setIsActive(false);
+      } else {
+        updateMessage(messages[newIdx].slice(0, newChar));
+        updateIter(newIdx);
+        updateChar(newChar + 1);
+      }
+    },
+    isActive ? delay : null
+  );
+
   return (
     <Main>
       <Helmet title="Contact" />
       <article className="post" id="contact">
-        <header >
+        <header>
           <div className="title">
             <h2>
               <Link to="/contact">Contact Us</Link>
@@ -65,49 +126,71 @@ const Contact = () => {
                     <Card.Title>
                       <h4 className="contact-div">+91 98252xxxxx</h4>
                     </Card.Title>
+                    <Card.Text className="contact-div">
+                      <a href="https://api.whatsapp.com/send?phone=8082008897">
+                        Send Message
+                      </a>
+                    </Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
               <Col>
                 <Card style={{ height: "100%" }}>
-                  {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                   <Card.Header className="card-header">
                     <FontAwesomeIcon className="fa-icon" icon={faEnvelope} />
                   </Card.Header>
                   <Card.Body>
                     <Card.Title>
-                      <p className="contact-div">rohidassamaj@gmail.com</p>
+                      {/* <p className="contact-div">
+                        {" "}
+                        <a href="mailto:rsmkurla@gmail.com">
+                          rsmkurla@gmail.com
+                        </a>
+                      </p> */}
+                      <div className="email-at">
+                        <div
+                          
+                          style={validateText(message) ? {}: { color: " #f70c8d" }}
+                          onMouseEnter={() => setIsActive(false)}
+                          onMouseLeave={() =>
+                            idx < messages.length && setIsActive(true)
+                          }
+                        >
+                          <h4 className="contact-div">  <a
+                            href={
+                              validateText(message)
+                                ? `mailto:${message}@gmail.com`
+                                : ""
+                            }
+                          >
+                            <span>{message}</span>
+                            <span>@gmail.com</span>
+                          </a></h4>
+                        
+                        </div>
+                      </div>
                     </Card.Title>
+                    <Card.Text className="contact-div">
+                    You can email us
+                    </Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
             </Row>
             <div className="container-fluid pt-3 contact-div">
               <div className="map-div">
-                <iframe
+                {/* <iframe
                   width="800"
                   height="500"
                   id="gmap_canvas"
                   src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCiUbr68SBoGzA2AbzS-RACUuShXE6p-hM
-                  &amp;q=rohidas+samaj+kurla"
-                  frameborder="0"
+                  &amp;q=Rohidas+Sudhark+Hall"
                   scrolling="no"
-                  marginheight="0"
-                  marginwidth="0"
-                ></iframe>
+                ></iframe> */}
               </div>
             </div>
           </Container>
         </div>
-
-        {/* <iframe
-          frameborder="0"
-          scrolling="no"
-          marginheight="0"
-          marginwidth="0"
-          src="https://maps.google.com/maps?q=rohidas+samaj+kurla&amp;t=m&amp;z=17&amp;output=embed&amp;iwloc=near"
-          aria-label="ROHIDAS SAMAJ PANCHAYAT SANGH"
-        ></iframe> */}
       </article>
     </Main>
   );

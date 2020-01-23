@@ -13,7 +13,7 @@ import { Tab } from "react-bootstrap";
 const tabRoutes = {
   present: PresentTrustees,
   life: LifeTrustees,
-  past: PastTrustees
+  past: PastTrustees,
 }
 
 const Trust = () => (
@@ -34,7 +34,7 @@ const Trust = () => (
             const TabComponent = tabRoutes[sec.value];
             return (
               <Tab  eventKey={sec.value} title={sec.label} key={sec.value}>
-                {<TabComponent />}
+                {<TabComponent key={sec.value}/>}
               </Tab>
             )
 
