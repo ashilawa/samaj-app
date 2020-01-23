@@ -2,7 +2,6 @@
 
 #contact {
   .email-at {
-    margin: 3em 0;
 
     p {
       margin: 0;
@@ -18,12 +17,22 @@
         text-align: right;
       }
     }
+    
+  }
+  a {
+    border-bottom: none;
+    &:hover {
+      color: #f70c8d !important;
+     }
+  }
+  span {
+    letter-spacing: 0px;
+    text-transform: none;
   }
 }
 
 .contact-div {
   text-align: center;
-  // padding: 5%;
 }
 
 .map-div {
