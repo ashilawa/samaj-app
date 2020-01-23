@@ -13,6 +13,12 @@ const Nav = () => (
       </Link>
       <header>
         <h2 >Rohidas Sudharak Mandal</h2>
+<<<<<<< HEAD
+=======
+        <p>
+          <a href="mailto:rsmkurla@gmail.com">rsmkurla@gmail.com</a>
+        </p>
+>>>>>>> 847d1ba... about submenu added and srm tab updated
       </header>
     </section>
 

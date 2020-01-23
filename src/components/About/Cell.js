@@ -14,7 +14,11 @@ const AssociatesCell = ({ data }) => (
         <img className="image" src={data.image} alt={data.title} />
     
       <div >
+<<<<<<< HEAD
         <p className="description">{data.desc}</p>
+=======
+        <p>{data.desc}</p>
+>>>>>>> 847d1ba... about submenu added and srm tab updated
       </div>
     </article>
   </div>

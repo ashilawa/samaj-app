@@ -13,10 +13,13 @@ const Associates = () => (
         <AssociatesCell   data={event} />
       ))}
     </div>
+<<<<<<< HEAD
     <div className="container">
 
     <img className="history" src={`/images/about/associates/nidhi.png`} alt="history" />
     </div>
+=======
+>>>>>>> 847d1ba... about submenu added and srm tab updated
   </div>
 );
 

@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import Table from "react-bootstrap/Table";
 import data from "../../data/about/panchayat";
 const Panchayat = () => (
@@ -29,6 +30,16 @@ const Panchayat = () => (
       </Table>
     </div>
     </div>
+=======
+const Panchayat = () => (
+  <div className="body">
+    <div className="link-to" id="busstand" />
+    <div className="title">
+      <h3>award</h3>
+    </div>
+    Panchayat
+  </div>
+>>>>>>> 847d1ba... about submenu added and srm tab updated
 );
 
 export default Panchayat;

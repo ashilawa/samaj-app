@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import Table from "react-bootstrap/Table";
 import data from "../../data/about/awards";
 const Award = () => (
@@ -60,6 +61,16 @@ const Award = () => (
     </div>
     
     </div>
+=======
+const Award = () => (
+  <div className="body">
+    <div className="link-to" id="busstand" />
+    <div className="title">
+      <h3>Saint rohidas bus Stand</h3>
+    </div>
+    Bus Stand
+  </div>
+>>>>>>> 847d1ba... about submenu added and srm tab updated
 );
 
 export default Award;
