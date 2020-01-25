@@ -5,4 +5,24 @@
   p {
     margin: auto;
   }
+  .body {
+    padding: 1em;
+    .title {
+      text-align: center;
+    }
+    .content {
+      margin: 1em;
+      text-align: justify;
+      p {
+        margin: 0;
+      }
+    }
+  }
+  .history{
+    text-align: center;
+    width: 80%;
+    margin: 15px;
+  }
 }
+
+
