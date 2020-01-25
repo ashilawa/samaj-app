@@ -1,5 +1,6 @@
-{
-  "data": [
+
+ const info = {
+  data: [
     {
       "path": "/images/home/first.jpg",
       "label": "first",
@@ -20,3 +21,4 @@
     }
   ]
 }
+export default info;
