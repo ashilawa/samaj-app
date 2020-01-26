@@ -4,7 +4,7 @@ import data from "../../data/trust/presentTrustees";
 const PresentTrustees = () => (
   <div className="body">
     <div className="content">
-      <Table striped bordered hover responsive>
+      <Table bordered hover responsive>
         <thead>
           <tr>
             <th className="table-td-center table-header-bg" colSpan="2">
@@ -17,10 +17,9 @@ const PresentTrustees = () => (
             <tr>
               {s.map(d => (
                 <td colSpan rowSpan>
-                  <div>{d.position}</div>
-                  <div>{d.name}</div>
-                  <div>{d.mobile}</div>
-                  <div>{d.available}</div>
+                  <img className="img-thumbnail" src={d.img} alt="history" />
+                   <div>{d.name}</div>
+                   <div>{d.position}</div>
                 </td>
               ))}
             </tr>

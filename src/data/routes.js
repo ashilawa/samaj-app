@@ -4,33 +4,33 @@ const data = [
     label: "Home",
   },
   {
-    path: "/committee",
-    label: "Working Committee"
-  },
-  {
-    path: "/trustees",
-    label: "trustees"
-  },
-  {
-    path: "/gallery",
-    label: "Gallery"
-  },
-  {
     path: "/about",
-    label: "About"
-  },
-  {
-    path: "/contact",
-    label: "Contact Us"
+    label: "About US"
   },
   {
     path: "/srm",
     label: "Saint Rohidas"
   },
   {
+    path: "/committee",
+    label: "Working Committee"
+  },
+  {
+    path: "/trustees",
+    label: "trustees"
+  },{
     path: "/events",
-    label: "Events"
+    label: "Activities"
+  },
+  {
+    path: "/gallery",
+    label: "Gallery"
+  },
+  {
+    path: "/contact",
+    label: "Contact Us"
   }
+  
 ];
 
 export default data;

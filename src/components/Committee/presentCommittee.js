@@ -17,10 +17,9 @@ const PresentCommittee = () => (
             <tr>
               {s.map(d => (
                 <td colSpan rowSpan>
+                  <img className="img-thumbnail" width={150} height={200}src={d.img} alt="history" />
                   <div>{d.position}</div>
                   <div>{d.name}</div>
-                  <div>{d.mobile}</div>
-                  <div>{d.available}</div>
                 </td>
               ))}
             </tr>

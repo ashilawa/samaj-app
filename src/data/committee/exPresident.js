@@ -1,37 +1,55 @@
 const exPresident = {
   menu: "president",
-  heading: "EX-PRESIDENTS AND GENERAL SECRETARIES",
-  tableheading: ["Presidents", "Period", "General Secretaries"],
+  heading: "संस्थेचे अध्यक्ष व त्यांचा कालावधी",
+  tableheading: ["अध्यक्ष", "कालावधी"],
   body: [
     {
-      president: "XX",
-      period: "2015-2020",
-      secratery: "1111100000"
+      president: "कै. नारायण मनाजी मोरे ",
+      period: "१९४२ ते १९५४",
+     
     },
     {
-      president: "XX",
-      period: "2015-2020",
-      secratery: "1111100000"
+      president: "कै. शंकर कृष्णाजी चांदोरकर",
+      period: "१९५४  ते १९६४",
+     
     },
     {
-      president: "XX",
-      period: "2015-2020",
-      secratery: "1111100000"
+      president: "कै. बाबुराव धर्माजी पेणकर",
+      period: "१९६४ ते १९७७",
+     
     },
     {
-      president: "XX",
-      period: "2015-2020",
-      secratery: "1111100000"
+      president: "कै. शंकर लक्ष्मण  गायकवाड",
+      period: "१९७७ ते १९८९",
+     
     },
     {
-      president: "XX",
-      period: "2015-2020",
-      secratery: "1111100000"
+      president: "श्री. हरिशचंद्र चंदर नागोटकर",
+      period: "१९८९ ते १९९७",
+     
     },
     {
-      president: "XX",
-      period: "2015-2020",
-      secratery: "1111100000"
+      president: "श्री. सूर्यकांत गणपत पेणकर",
+      period: "१९९७ ते २००३",
+     
+    }
+    ,
+    {
+      president: "श्री. चंद्रकांत पांडुरंग पालेकर",
+      period: "२००३ ते २०१०",
+     
+    }
+    ,
+    {
+      president: "श्री. सुदाम तुकाराम मानकर",
+      period: "२०१० ते २०१३",
+     
+    }
+    ,
+    {
+      president: "श्री. प्रकाश तुकाराम दिघे",
+      period: "२०१३ ते विद्यमान",
+     
     }
   ]
 };

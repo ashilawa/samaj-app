@@ -1,47 +1,30 @@
 const presentTrustees = {
   menu: "present",
-  heading: " PRESENT TRUSTEES",
+  heading: "विश्वस्त मंडळ",
   body: [
     [
       {
-        position: "अध्यक्ष",
-        name: "श्री. प्रकाश दिघे",
-        mobile: "1111100000",
-        available: "Monday & Friday"
+        img: "/images/trustee/trustee1.png",
+        name: "श्री. हरिश्चंद्र चंदर नागोटकर",
+        position:"माजी अध्यक्ष"
+      
       },
       {
-        position: "उपाध्यक्ष",
-        name: "श्री. अश्विन गायकवाड",
-        mobile: "1111100000",
-        available: "Monday & Friday"
+        img: "/images/trustee/trustee2.png",
+        name: "श्री. सुभाष शिवराम मोरे",
+        position:"माजी उपाध्यक्ष"
       }
     ],
     [
       {
-        position: "कार्याध्यक्ष",
-        name: "श्री. चेतन कोईलकर",
-        mobile: "1111100000",
-        available: "Monday & Friday"
+        img: "/images/trustee/trustee3.png",
+        name: "श्री. सुदाम तुकाराम मानकर",
+        position:"माजी अध्यक्ष"
       },
       {
-        position: "सर चिटणीस",
-        name: "श्री. प्रकाश दिघे",
-        mobile: "1111100000",
-        available: "Monday & Friday"
-      }
-    ],
-    [
-      {
-        position: "चिटणीस",
-        name: "श्री. मुकेश पटेकर",
-        mobile: "1111100000",
-        available: "Monday & Friday"
-      },
-      {
-        position: "खजिनदार",
-        name: "श्री. राजू पेणकर",
-        mobile: "1111100000",
-        available: "Monday & Friday"
+        img: "/images/trustee/trustee4.png",
+        name: "श्री. हरिचंद्र रामचंद्र गायकवाड",
+        position:"माजी कार्याध्यक्ष"
       }
     ]
   ]

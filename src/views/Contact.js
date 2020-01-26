@@ -104,12 +104,12 @@ const Contact = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          Rohidas Samaj Kurla
+                          Rohidas Sudharak Mandal Kurla
                         </a>
                       </h4>
                     </Card.Title>
                     <Card.Text className="contact-div">
-                      Sant Rohidas Samaj Mandir, LBS Rd, Kurla West, Mumbai,
+                      Sant Rohidas Samaj Mandir, LBS Rd, opposite kurla court ,Kurla West, Mumbai,
                       Maharashtra 400070
                     </Card.Text>
                   </Card.Body>
@@ -124,10 +124,11 @@ const Contact = () => {
                   </Card.Header>
                   <Card.Body>
                     <Card.Title>
-                      <h4 className="contact-div">+91 98252xxxxx</h4>
+                      <h4 className="contact-div">
+                      <a href="https://api.whatsapp.com/send?phone=+917021885520">+91 7021885520</a></h4>
                     </Card.Title>
                     <Card.Text className="contact-div">
-                      <a href="https://api.whatsapp.com/send?phone=8082008897">
+                      <a href="https://api.whatsapp.com/send?phone=+917021885520">
                         Send Message
                       </a>
                     </Card.Text>
