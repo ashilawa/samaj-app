@@ -20,8 +20,25 @@
   }
   .history{
     text-align: center;
-    width: 80%;
+    width: 90%;
     margin: 15px;
+  }
+  .table-header-bg {
+    background-color: #4b49b7;
+    color: white;
+    font-size: 1.2em;
+  }
+
+  .table-body {
+    padding: 1em;
+    .title {
+      text-align: center;
+    }
+    .content {
+      text-align: center;
+      
+    }
+    
   }
 }
 

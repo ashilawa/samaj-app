@@ -14,7 +14,7 @@ const AssociatesCell = ({ data }) => (
         <img className="image" src={data.image} alt={data.title} />
     
       <div >
-        <p>{data.desc}</p>
+        <p className="description">{data.desc}</p>
       </div>
     </article>
   </div>

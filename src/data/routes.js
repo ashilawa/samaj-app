@@ -25,7 +25,11 @@ const data = [
   },
   {
     path: "/srm",
-    label: "About Saint Rohidas"
+    label: "Saint Rohidas"
+  },
+  {
+    path: "/events",
+    label: "Events"
   }
 ];
 
