@@ -157,6 +157,12 @@ body {
     }
   }
 
+  @include breakpoint(large) {
+    .links {
+      display: none;
+    }
+  }
+
   @include breakpoint(medium) {
     .links {
       display: none;
@@ -229,7 +235,7 @@ body {
 }
 
 .open-menu {
-  position: fixed;
+  position: absolute;
   right: 0;
   border: none;
 }
@@ -251,3 +257,8 @@ body {
   }
 }
 
+@include breakpoint(large) {
+  .hamburger-container {
+    display: initial;
+  }
+}

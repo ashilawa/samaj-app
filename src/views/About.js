@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Helmet from "react-helmet";
 
@@ -14,12 +14,10 @@ const tabRoutes = {
   history: SamajHistory,
   associates: Associates,
   awards: Award,
-  panchayat:Panchayat
+  panchayat: Panchayat
 };
 
-
 const About = () => {
- 
   return (
     <Main>
       <Helmet title="About" />
@@ -29,11 +27,10 @@ const About = () => {
             <h2>
               <Link to="/about">About Us</Link>
             </h2>
-            
           </div>
         </header>
-      
-        <Tabs   defaultActiveKey="history" >
+
+        <Tabs defaultActiveKey="history">
           {common.about.submenu.map(sec => {
             const TabComponent = tabRoutes[sec.value];
             return (
@@ -43,7 +40,6 @@ const About = () => {
             );
           })}
         </Tabs>
-
       </article>
     </Main>
   );

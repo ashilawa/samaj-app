@@ -18,7 +18,7 @@
 @include skel-breakpoints(
   (
     xlarge: "(max-width: 1680px)",
-    large: "(max-width: 1280px)",
+    large: "(max-width: 1500px)",
     medium: "(max-width: 980px)",
     small: "(max-width: 736px)",
     xsmall: "(max-width: 480px)"
@@ -106,7 +106,6 @@
   }
 
   .nav-link {
-
     &:hover {
       color: #f70c8d !important;
     }
@@ -117,8 +116,8 @@
     // }
 
     &.active {
-      color:  #f70c8d  !important;
-      border-bottom: 1px solid  #f70c8d ;
+      color: #f70c8d !important;
+      border-bottom: 1px solid #f70c8d;
     }
   }
 }
