@@ -1,49 +1,21 @@
 const pastCommitte = {
   menu: "past",
-  heading: "PAST OFFICE BEARERS",
+  heading: "संस्थेची कार्यकारिणी व त्यांचा कालावधी",
   body: [
-    [
-      {
-        position: "XX",
-        name: "XX",
-        mobile: "1111100000",
-        available: "Monday & Friday"
-      },
-      {
-        position: "XX",
-        name: "XX",
-        mobile: "1111100000",
-        available: "Monday & Friday"
-      }
-    ],
-    [
-      {
-        position: "XX",
-        name: "XX",
-        mobile: "1111100000",
-        available: "Monday & Friday"
-      },
-      {
-        position: "XX",
-        name: "XX",
-        mobile: "1111100000",
-        available: "Monday & Friday"
-      }
-    ],
-    [
-      {
-        position: "XX",
-        name: "XX",
-        mobile: "1111100000",
-        available: "Monday & Friday"
-      },
-      {
-        position: "XX",
-        name: "XX",
-        mobile: "1111100000",
-        available: "Monday & Friday"
-      }
-    ]
+    {
+      img: "images/committee/past/image1.png"
+    },
+    {
+      img: "images/committee/past/image2.png"
+    },
+    {
+      img: "images/committee/past/image3.png"
+    },
+    {
+      img: "images/committee/past/image4.png"
+    },{
+      img: "images/committee/past/image5.png"
+    }
   ]
 };
 

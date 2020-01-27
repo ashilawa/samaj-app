@@ -20,14 +20,7 @@ const validateText = text => {
   return re.test(text) || text.length === 0;
 };
 
-const messages = [
-  'hi',
-  'hello',
-  'You can email us at:',
-  'rsm',
-  'rsmkurla'
-
-];
+const messages = ["hi", "hello", "You can email us at:", "rsm", "rsmkurla"];
 
 const useInterval = (callback, delay) => {
   const savedCallback = useRef();
@@ -104,13 +97,13 @@ const Contact = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          Rohidas Samaj Kurla
+                          Rohidas Sudharak Mandal Kurla
                         </a>
                       </h4>
                     </Card.Title>
                     <Card.Text className="contact-div">
-                      Sant Rohidas Samaj Mandir, LBS Rd, Kurla West, Mumbai,
-                      Maharashtra 400070
+                      Sant Rohidas Samaj Mandir, LBS Rd, opposite kurla court
+                      ,Kurla West, Mumbai, Maharashtra 400070
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -124,10 +117,14 @@ const Contact = () => {
                   </Card.Header>
                   <Card.Body>
                     <Card.Title>
-                      <h4 className="contact-div">+91 98252xxxxx</h4>
+                      <h4 className="contact-div">
+                        <a href="https://api.whatsapp.com/send?phone=+917021885520">
+                          +91 7021885520
+                        </a>
+                      </h4>
                     </Card.Title>
                     <Card.Text className="contact-div">
-                      <a href="https://api.whatsapp.com/send?phone=8082008897">
+                      <a href="https://api.whatsapp.com/send?phone=+917021885520">
                         Send Message
                       </a>
                     </Card.Text>
@@ -141,37 +138,34 @@ const Contact = () => {
                   </Card.Header>
                   <Card.Body>
                     <Card.Title>
-                      {/* <p className="contact-div">
-                        {" "}
-                        <a href="mailto:rsmkurla@gmail.com">
-                          rsmkurla@gmail.com
-                        </a>
-                      </p> */}
                       <div className="email-at">
                         <div
-                          
-                          style={validateText(message) ? {}: { color: " #f70c8d" }}
+                          style={
+                            validateText(message) ? {} : { color: " #f70c8d" }
+                          }
                           onMouseEnter={() => setIsActive(false)}
                           onMouseLeave={() =>
                             idx < messages.length && setIsActive(true)
                           }
                         >
-                          <h4 className="contact-div">  <a
-                            href={
-                              validateText(message)
-                                ? `mailto:${message}@gmail.com`
-                                : ""
-                            }
-                          >
-                            <span>{message}</span>
-                            <span>@gmail.com</span>
-                          </a></h4>
-                        
+                          <h4 className="contact-div">
+                            {" "}
+                            <a
+                              href={
+                                validateText(message)
+                                  ? `mailto:${message}@gmail.com`
+                                  : ""
+                              }
+                            >
+                              <span>{message}</span>
+                              <span>@gmail.com</span>
+                            </a>
+                          </h4>
                         </div>
                       </div>
                     </Card.Title>
                     <Card.Text className="contact-div">
-                    You can email us
+                      You can email us
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -179,14 +173,14 @@ const Contact = () => {
             </Row>
             <div className="container-fluid pt-3 contact-div">
               <div className="map-div">
-                {/* <iframe
+                <iframe
                   width="800"
                   height="500"
                   id="gmap_canvas"
                   src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCiUbr68SBoGzA2AbzS-RACUuShXE6p-hM
                   &amp;q=Rohidas+Sudhark+Hall"
                   scrolling="no"
-                ></iframe> */}
+                ></iframe>
               </div>
             </div>
           </Container>

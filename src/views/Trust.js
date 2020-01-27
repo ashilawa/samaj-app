@@ -22,7 +22,7 @@ const Trust = () => (
     <article className="post" id="trust">
       <header>
         <div className="title ">
-          <h2>
+          <h2 className="header-withoutspace">
             <Link to="trustees">{common.trustees.title}</Link>
           </h2>
         </div>

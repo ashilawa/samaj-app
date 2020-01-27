@@ -95,11 +95,12 @@ body {
   }
 
   .logo {
+    padding-left: 0em;
     img {
       height: 100%;
       width: 100%;
       max-height: 70px;
-      max-width: 287px;
+      max-width: 271px;
     }
   }
   .main {
@@ -153,6 +154,12 @@ body {
           }
         }
       }
+    }
+  }
+
+  @include breakpoint(large) {
+    .links {
+      display: none;
     }
   }
 
@@ -228,7 +235,7 @@ body {
 }
 
 .open-menu {
-  position: fixed;
+  position: absolute;
   right: 0;
   border: none;
 }
@@ -250,3 +257,8 @@ body {
   }
 }
 
+@include breakpoint(large) {
+  .hamburger-container {
+    display: initial;
+  }
+}

@@ -7,7 +7,7 @@ const ExPresident = () => (
       <Table className="content" striped bordered hover responsive>
         <thead>
           <tr>
-            <th className="table-td-center table-header-bg" colSpan="3">
+            <th className="table-td-center table-header-bg" colSpan="2">
               {data.heading}
             </th>
           </tr>
@@ -22,7 +22,6 @@ const ExPresident = () => (
             <tr>
               <td>{s.president}</td>
               <td>{s.period}</td>
-              <td>{s.secratery}</td>
             </tr>
           ))}
         </tbody>

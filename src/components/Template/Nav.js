@@ -13,15 +13,16 @@ const Nav = () => (
       </Link>
       <header>
         <h2 >Rohidas Sudharak Mandal</h2>
-        <p>
-          <a href="mailto:rsmkurla@gmail.com">rsmkurla@gmail.com</a>
-        </p>
       </header>
     </section>
 
     <section className="blurb">
       <ul className="actions">
         <li>
+        <p>
+        रोहिदास सुधारक मंडळ कुर्ला हि संस्था ७५ हुन अधिक अधिक वर्षे कुर्ला विभागात सामाजिकम शैक्षणिक आणि
+क्रीडा क्षेत्रात कार्यरत आहे.
+        </p>
           <Link to="/about" className="button">
             About Us
           </Link>
@@ -39,7 +40,7 @@ const Nav = () => (
           </li>
         ))}
       </ul>
-      <p className="copyright">&copy; Akshay Shilawane.</p>
+      {/* <p className="copyright">&copy; Akshay Shilawane.</p> */}
     </section>
   </section>
 );

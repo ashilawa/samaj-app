@@ -13,6 +13,10 @@ const Associates = () => (
         <AssociatesCell   data={event} />
       ))}
     </div>
+    <div className="container">
+
+    <img className="history" src={`/images/about/associates/nidhi.png`} alt="history" />
+    </div>
   </div>
 );
 

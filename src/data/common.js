@@ -17,7 +17,7 @@ const data = {
     ]
   },
   trustees: {
-    title: "Trustees",
+    title: "विश्वस्त मंडळ (नियोजित)",
     submenu: [
      
       {
@@ -28,10 +28,10 @@ const data = {
         label: "LIFE TRUSTEES",
         value: "life"
       },
-      {
-        label: "PAST TRUSTEES",
-        value: "past"
-      }
+      // {
+      //   label: "PAST TRUSTEES",
+      //   value: "past"
+      // }
     ]
   },
   srm: {

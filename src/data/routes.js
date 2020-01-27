@@ -4,29 +4,33 @@ const data = [
     label: "Home",
   },
   {
+    path: "/about",
+    label: "About US"
+  },
+  {
+    path: "/srm",
+    label: "Saint Rohidas"
+  },
+  {
     path: "/committee",
     label: "Working Committee"
   },
   {
     path: "/trustees",
     label: "trustees"
+  },{
+    path: "/events",
+    label: "Activities"
   },
   {
     path: "/gallery",
     label: "Gallery"
   },
   {
-    path: "/about",
-    label: "About"
-  },
-  {
     path: "/contact",
     label: "Contact Us"
-  },
-  {
-    path: "/srm",
-    label: "About Saint Rohidas"
   }
+  
 ];
 
 export default data;

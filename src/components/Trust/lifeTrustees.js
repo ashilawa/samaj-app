@@ -17,10 +17,10 @@ const LifeTrustees = () => (
             <tr>
               {s.map(d => (
                 <td colSpan rowSpan>
-                  <div>{d.position}</div>
-                  <div>{d.name}</div>
-                  <div>{d.mobile}</div>
-                  <div>{d.available}</div>
+                    <img className="img-thumbnail" src={d.img} alt="history" />
+                   <div>{d.name}</div>
+                   <div>{d.position}</div>
+              
                 </td>
               ))}
             </tr>

@@ -9,13 +9,15 @@
   position: relative;
 
   .description {
-    position: absolute;
     padding: 0;
     bottom: 0;
     border-top: solid 1px _palette(border);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: _font(weight-heading-bold);
 
     p {
-      font-size: 0.9rem;
+      
       margin: 0;
       padding: 1.25em;
       background-color: rgba(255,255,255,.7);
@@ -24,6 +26,7 @@
       z-index: 1000;
       transition: all 0.1s;
       -webkit-transition: all 0.1s ease-in-out;
+      
     }
 
     p:hover {
