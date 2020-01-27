@@ -13,10 +13,7 @@ class Main extends Component {
   render() {
     return (
       <div id="wrapper">
-        <Helmet
-          titleTemplate="%s | Rohidas Samaj"
-          defaultTitle="Rohidas Samaj"
-        />
+        <Helmet titleTemplate="%s | RSM-Kurla" defaultTitle="RSM-Kurla" />
         <Header />
         <div id="main">{this.props.children}</div>
         {!this.props.fullPage && <Nav />}
