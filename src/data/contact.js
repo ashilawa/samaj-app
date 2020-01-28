@@ -1,42 +1,40 @@
 import faFacebook from "@fortawesome/fontawesome-free-brands/faFacebookF";
 import faInstagram from "@fortawesome/fontawesome-free-brands/faInstagram";
-import faLinkedinIn from "@fortawesome/fontawesome-free-brands/faLinkedinIn";
-import faTwitter from "@fortawesome/fontawesome-free-brands/faTwitter";
 import faEnvelope from "@fortawesome/fontawesome-free-regular/faEnvelope";
 import faAddressCard from "@fortawesome/fontawesome-free-regular/faAddressCard";
-
+import faYoutube from "@fortawesome/fontawesome-free-brands/faYoutube";
 
 const data = [
   {
     link: "",
     label: "Facebook",
-    icon: faFacebook
+    icon: faFacebook,
+    color: "#3b5998"
   },
   {
     link: "",
     label: "Instagram",
-    icon: faInstagram
+    icon: faInstagram,
+    color: "#3f729b"
   },
-  {
-    link: "",
-    label: "LinkedIn",
-    icon: faLinkedinIn
-  },
-  {
-    link: "",
-    label: "Twitter",
-    icon: faTwitter
-  },
+
   {
     link: "",
     label: "Email",
-    icon: faEnvelope
-  }
-  ,
+    icon: faEnvelope,
+    color: "#253b80"
+  },
   {
     link: "",
     label: "address",
-    icon: faAddressCard
+    icon: faAddressCard,
+    color: "#ff9900"
+  },
+  {
+    link: "",
+    label: "YouTube",
+    icon: faYoutube,
+    color: "red"
   }
 ];
 

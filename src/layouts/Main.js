@@ -5,6 +5,10 @@ import Helmet from "react-helmet";
 import Header from "../components/Template/Header";
 import Nav from "../components/Template/Nav";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import data from "../data/contact";
+
 class Main extends Component {
   componentWillMount() {
     window.scrollTo(0, 0);
@@ -12,11 +16,27 @@ class Main extends Component {
 
   render() {
     return (
-      <div id="wrapper">
-        <Helmet titleTemplate="%s | RSM-Kurla" defaultTitle="RSM-Kurla" />
-        <Header />
-        <div id="main">{this.props.children}</div>
-        {!this.props.fullPage && <Nav />}
+      <div>
+        <div id="wrapper">
+          <Helmet titleTemplate="%s | RSM-Kurla" defaultTitle="RSM-Kurla" />
+          <Header />
+          <div id="main">{this.props.children}</div>
+          {!this.props.fullPage && <Nav />}
+        </div>
+        <div>
+          <section id="footer">
+            <ul className="icons">
+              {data.map(s => (
+                <li key={s.label}>
+                  <a href={s.link}>
+                    <FontAwesomeIcon color={s.color} icon={s.icon} />
+                  </a>
+                </li>
+              ))}
+            </ul>
+            {/* <p className="copyright">&copy; Akshay Shilawane.</p> */}
+          </section>
+        </div>
       </div>
     );
   }
