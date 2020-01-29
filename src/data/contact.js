@@ -15,17 +15,17 @@ const data = [
     link: "",
     label: "Instagram",
     icon: faInstagram,
-    color: "#3f729b"
+    color: "#f50c81"
   },
 
   {
-    link: "",
+    link: "mailto:rsmkurla@gmail.com",
     label: "Email",
     icon: faEnvelope,
-    color: "#253b80"
+    color: "#ffffff"
   },
   {
-    link: "",
+    link: "https://goo.gl/maps/vj5icsBSY8upifkR6",
     label: "address",
     icon: faAddressCard,
     color: "#ff9900"
