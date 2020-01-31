@@ -1,7 +1,7 @@
 const data = [
   {
     path: "/home",
-    label: "Home",
+    label: "Home"
   },
   {
     path: "/about",
@@ -13,13 +13,14 @@ const data = [
   },
   {
     path: "/committee",
-    label: "Working Committee"
+    label: "Committee"
   },
   {
     path: "/trustees",
     label: "trustees"
-  },{
-    path: "/events",
+  },
+  {
+    path: "/activites",
     label: "Activities"
   },
   {
@@ -30,7 +31,6 @@ const data = [
     path: "/contact",
     label: "Contact Us"
   }
-  
 ];
 
 export default data;

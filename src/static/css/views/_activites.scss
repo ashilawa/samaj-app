@@ -1,0 +1,24 @@
+// Sant rohidas maharaj (/srm)
+
+#activites {
+  .table-header-bg {
+    background-color: #4b49b7;
+    color: white;
+    font-size: 1.2em;
+  }
+
+  .body {
+    padding: 1em;
+    .title {
+      text-align: center;
+    }
+    .content {
+      text-align: center;
+    }
+  }
+  .card-header {
+    text-align: center;
+    padding: 1%;
+    font-weight: _font(weight-heading-bold);
+  }
+}

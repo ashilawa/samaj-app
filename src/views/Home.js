@@ -1,5 +1,4 @@
 import React from "react";
-//import { Link } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 
 import Main from "../layouts/Main";
@@ -8,7 +7,7 @@ import info from "../data/info";
 
 console.log(info);
 
-const Index = () => (
+const Home = () => (
   <Main>
     <article className="post" id="index">
       <Carousel>
@@ -26,4 +25,4 @@ const Index = () => (
   </Main>
 );
 
-export default Index;
+export default Home;
