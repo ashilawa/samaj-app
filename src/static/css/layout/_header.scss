@@ -77,9 +77,9 @@ body {
         a {
           border-bottom: 0;
           font-family: _font(family-heading);
-          font-size: 0.8em;
+          font-size: 0.85em;
           font-weight: _font(weight-heading);
-          letter-spacing: _font(kerning-heading);
+          letter-spacing: 0.15em;
           text-transform: uppercase;
           &:hover {
             color: #f70c8d !important;
@@ -157,12 +157,12 @@ body {
     }
   }
 
+  
   @include breakpoint(large) {
     .links {
       display: none;
     }
   }
-
   @include breakpoint(medium) {
     .links {
       display: none;
@@ -256,6 +256,8 @@ body {
     display: initial;
   }
 }
+
+
 
 @include breakpoint(large) {
   .hamburger-container {

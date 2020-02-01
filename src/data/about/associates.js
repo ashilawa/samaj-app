@@ -4,7 +4,6 @@ const associates = [
     title: "",
     subtitle: "",
     image: "/images/about/associates/image1.png",
-
     desc: "श्री. नवाब मलिक, आमदार"
   },
   {

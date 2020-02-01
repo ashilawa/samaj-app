@@ -55,15 +55,15 @@ const data = {
     title: "About us",
     submenu: [
       {
-        label: "HISTORY",
+        label: "इतिहास",
         value: "history"
       },
       {
-        label: "OUR ASSOCIATES",
+        label: "सहकारी",
         value: "associates"
       },
       {
-        label: "AWARD WINNERS",
+        label: "पुरस्कार विजेते",
         value: "awards"
       },
       {

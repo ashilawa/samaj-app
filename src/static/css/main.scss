@@ -15,15 +15,13 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-@include skel-breakpoints(
-  (
-    xlarge: "(max-width: 1680px)",
-    large: "(max-width: 1500px)",
-    medium: "(max-width: 980px)",
-    small: "(max-width: 736px)",
-    xsmall: "(max-width: 480px)"
-  )
-);
+@include skel-breakpoints((
+		xlarge: '(max-width: 1680px)',
+		large: '(max-width: 1380px)',
+		medium: '(max-width: 980px)',
+		small: '(max-width: 736px)',
+		xsmall: '(max-width: 480px)'
+	));
 
 @include skel-layout(
   (
@@ -73,6 +71,8 @@
 @import "views/committee";
 @import "views/skills";
 @import "views/srm";
+@import "views/activites";
+@import "views/home";
 
 .header-withoutspace {
   letter-spacing: 0em;

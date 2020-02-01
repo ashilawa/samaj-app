@@ -7,21 +7,42 @@
 /* Footer */
 
 	#footer {
-		text-align: center;
-		.icons {
-			color: _palette(fg-light);
+		
+		a {
+	
+			outline: none;
+			border: none;
+			img{
+				
+				padding-top: 0.5rem!important;
+				padding-left: 0.5rem!important;
+				outline: none;
+			}
+	
+			
 		}
-
-		.copyright {
-			color: _palette(fg-light);
-			font-family: _font(family-heading);
-			font-size: 0.5em;
-			font-weight: _font(weight-heading);
-			letter-spacing: _font(kerning-heading);
-			text-transform: uppercase;
+		.footer-text{
+			padding-top: 0.5rem!important;
+			text-align: center;
+			color:#ffffff; 
+			font-size: 1em;
 		}
-
-		body.single & {
+		.icons-padding{
+			text-align: center;
+			padding-top: 1rem;
+			font-size: 1.5em;
+		}
+		.footer-body{
 			text-align: center;
 		}
+		ul {
+			list-style: disc;
+			margin: 0 0 0 0;
+			padding-left: 1em;
+		}
+	
+	}
+	.pb-4,.py-4 {
+		padding-bottom: 0rem!important;
+		padding-top: 0rem!important;
 	}

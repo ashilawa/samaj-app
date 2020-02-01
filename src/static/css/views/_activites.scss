@@ -1,46 +1,29 @@
-// About page (/about)
+// Sant rohidas maharaj (/srm)
 
-#about {
-
-  p {
-    margin: auto;
-  }
-  .body {
-    padding: 1em;
-    .title {
-      text-align: center;
-    }
-    .content {
-      margin: 1em;
-      text-align: justify;
-      p {
-        margin: 0;
-      }
-    }
-  }
-  .history{
-    text-align: center;
-    width: 70%;
-    margin: 15px;
-  }
+#activites {
   .table-header-bg {
     background-color: #4b49b7;
     color: white;
     font-size: 1.2em;
   }
 
-  .table-body {
+  .body {
     padding: 1em;
     .title {
       text-align: center;
     }
     .content {
       text-align: center;
-      
     }
-    
   }
-
+  .card-header {
+    text-align: center;
+    padding: 1% !important;
+    font-weight: _font(weight-heading-bold);
+  }
+  .card-body {
+    text-align: center;
+}
   .activites-image{
     text-align: center;
     padding: 1%;
@@ -48,5 +31,3 @@
     border: solid 1px rgba(160, 160, 160, 0.3);
   }
 }
-
-
