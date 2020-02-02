@@ -11,9 +11,8 @@ const Home = () => (
     <article className="post" id="home">
       <Carousel style={{height:"700px"}}>
         {info.data.map(s => (
-          <Carousel.Item >
-            <img className="d-block w-100 " src={s.path} alt={s.alt} key={s.path} />
-
+          <Carousel.Item key={s.path}>
+            <img className="d-block w-100 " src={s.path} alt={s.alt}  />
           </Carousel.Item>
         ))}
       </Carousel>

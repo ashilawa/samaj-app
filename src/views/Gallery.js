@@ -5,6 +5,7 @@ import Main from "../layouts/Main";
 import { Tab, Row, ListGroup, Col } from "react-bootstrap";
 import Cell from "../components/Gallery/Cell";
 import data from "../data/Gallery/photos";
+import PlatinumEvent from "../components/Platinum/PlatinumEvent";
 
 const GallerySamaj = () => (
   <Main fullPage={true }>
@@ -27,6 +28,9 @@ const GallerySamaj = () => (
                   {link.year}
                 </ListGroup.Item>
               ))}
+              <ListGroup.Item action variant="light" href={`#platinum`} key="platinum">
+                  75 वर्षे जयंती
+                </ListGroup.Item>
             </ListGroup>
           </Col>
           <Col sm={10}>
@@ -39,9 +43,14 @@ const GallerySamaj = () => (
                  
                 ))}
               </Tab.Pane>
-
             </Tab.Content>
              ))}
+             <Tab.Content>
+             <Tab.Pane  eventKey={`#platinum`}>
+                <PlatinumEvent/>
+              </Tab.Pane>
+             </Tab.Content>
+            
           </Col>
         </Row>
       </Tab.Container>

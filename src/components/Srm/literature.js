@@ -1,6 +1,6 @@
 import React from "react";
 const Litrature = () => (
-  <div className="body">
+  <div className="body shadow-lg p-3 mb-5 bg-white rounded">
     <div className="link-to" id="litrature" />
     <div className="title" >
 

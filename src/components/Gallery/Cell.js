@@ -6,14 +6,14 @@ import Gallery from "react-grid-gallery";
 
 
 const Cell = ({ data }) => (
-  <div className="cell-container">
+  <div className="cell-container shadow-lg p-3 mb-5 bg-white rounded" >
     <article className="mini-post">
       <header>
-        <h3>
+        <h3 className="header-withoutspace">
           <a href={data.link}>{data.title}</a>
         </h3>
         <time className="published">
-          {dayjs(data.date).format("MMMM, YYYY")}
+          {data.date ? dayjs(data.date).format("DD,MMMM, YYYY"):""}
         </time>
       </header>
        <div>
@@ -21,6 +21,7 @@ const Cell = ({ data }) => (
           images={data.images}
           backdropClosesModal={true}
           enableImageSelection={false}
+          showCloseButton={false}
         />
       </div>
     </article>

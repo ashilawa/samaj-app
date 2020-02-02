@@ -30,7 +30,7 @@ const Event = () => (
       </Table>
     </div>
     {data.images.map(src=>(
-       <div class="shadow-lg p-3 mb-5 bg-white rounded activites-image">
+       <div className="shadow-lg p-3 mb-5 bg-white rounded activites-image">
               <Image src={src.img} fluid  key={src.id}/>
             </div>
     ))}
