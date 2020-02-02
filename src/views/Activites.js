@@ -18,8 +18,7 @@ const Activites = () => (
         </div>
       </header>
 
-      <div>
-        <div className="container">
+        <div >
           <p>
             संस्थेच्या भरीव व उल्लेखनीय कामाची दखल घेऊन{" "}
             <strong>
@@ -66,7 +65,7 @@ const Activites = () => (
           </Card>
           
         </div>
-      </div>
+     
     </article>
   </Main>
 );

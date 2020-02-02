@@ -171,18 +171,24 @@ const Contact = () => {
                 </Card>
               </Col>
             </Row>
-            <div className="container-fluid pt-3 contact-div">
-              <div className="map-div">
-                <iframe
-                  width="800"
-                  height="500"
-                  id="gmap_canvas"
-                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCiUbr68SBoGzA2AbzS-RACUuShXE6p-hM
+           
+                <Card className="text-center shadow-lg">
+                  <Card.Header className="map-card-header">ROHIDAS SUDHARAK MANDAL KURLA</Card.Header>
+                  <Card.Body>
+                    <Card.Title>Visit Us</Card.Title>
+                    <Card.Text>
+                      <iframe
+                        width="800"
+                        height="500"
+                        id="gmap_canvas"
+                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCiUbr68SBoGzA2AbzS-RACUuShXE6p-hM
                   &amp;q=Rohidas+Sudhark+Hall"
-                  scrolling="no"
-                ></iframe>
-              </div>
-            </div>
+                        scrolling="no"
+                      ></iframe>
+                    </Card.Text>
+                  </Card.Body>
+                  <Card.Footer className="text-muted"></Card.Footer>
+                </Card>
           </Container>
         </div>
       </article>
