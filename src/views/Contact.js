@@ -118,14 +118,20 @@ const Contact = () => {
                   <Card.Body>
                     <Card.Title>
                       <h4 className="contact-div">
-                        <a href="https://api.whatsapp.com/send?phone=+917021885520">
-                          +91 7021885520
-                        </a>
+                     
+                      call on 
+                        
                       </h4>
                     </Card.Title>
                     <Card.Text className="contact-div">
                       <a href="https://api.whatsapp.com/send?phone=+917021885520">
-                        Send Message
+                    <span>98196 54580</span><br></br>
+                     <span>श्री. प्रकाश दिघे (अध्यक्ष)</span><br></br>
+                      <span>98673 95040</span><br></br>
+                     <span>श्री. चेतन कोईलकर (सर चिटणीस)</span><br></br>
+                      <span>7021885520</span><br></br>
+                     <span>श्श्री. राजू नामदेव पेणकर (कोषाध्ययक्ष)</span><br></br>
+                      
                       </a>
                     </Card.Text>
                   </Card.Body>
