@@ -25,25 +25,9 @@ class Main extends Component {
           <div id="main">{this.props.children}</div>
           {!this.props.fullPage && <Nav />}
         </div>
-        {/* <div id="footer">
-          <section className="icons">
-            <img  width={50} height={50} src={`/images/Mobile-Logo.jpg`} alt=""></img>
-            <ul className="icons">
-              {data.map(s => (
-                <li key={s.label}>
-                  <a href={s.link}>
-                    <FontAwesomeIcon color={s.color} icon={s.icon} />
-                  </a>
-                </li>
-              ))}
-            </ul>
-            
-            <p className="copyright">created by - Akshay Shilawane and team</p>
-          </section>
-        </div> */}
-        <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <footer id="footer" className="py-4 bg-dark text-white-50">
           <Row>
-            <Col>
+            <Col xs={1}>
               <a href="http://localhost:3000/committee">
                 <img
                   width={70}
@@ -53,11 +37,8 @@ class Main extends Component {
                 ></img>
               </a>
             </Col>
-            <Col className="footer-text">
-              {" "}
-              Copyright &copy; Rohidas Sudharak Manda,Kurla
-            </Col>
-            <Col>
+            <Col className="footer-text" xs={2}><span>Copyright &copy; Rohidas Sudharak Mandal,Kurla </span></Col>
+            <Col xs={6} >
               <div className="icons-padding">
                 <ul className="icons">
                   {data.map(s => (
@@ -67,10 +48,10 @@ class Main extends Component {
                       </a>
                     </li>
                   ))}
-                  <li>Created by Akshay Shilawane and team</li>
                 </ul>
               </div>
             </Col>
+            <Col className="footer-text" xs={2}><span>Created by Akshay Shilawane and Team </span></Col>
           </Row>
         </footer>
         <ScrollUpButton />

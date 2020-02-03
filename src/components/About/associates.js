@@ -10,7 +10,7 @@ const Associates = () => (
 
     <div className="container">
       {associates.map(event => (
-        <AssociatesCell   data={event} />
+        <AssociatesCell   data={event}  key={event.image}/>
       ))}
     </div>
     <div className="container">

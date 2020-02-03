@@ -4,8 +4,8 @@ const data = {
     submenu: [
       {
         label: "PRESENT OFFICE BEARERS",
-        value: "present",
-    },
+        value: "present"
+      },
       {
         label: "PAST OFFICE BEARERS",
         value: "past"
@@ -19,7 +19,6 @@ const data = {
   trustees: {
     title: "विश्वस्त मंडळ (नियोजित)",
     submenu: [
-     
       {
         label: "PRESENT TRUSTEES",
         value: "present"
@@ -27,7 +26,7 @@ const data = {
       {
         label: "LIFE TRUSTEES",
         value: "life"
-      },
+      }
       // {
       //   label: "PAST TRUSTEES",
       //   value: "past"
@@ -55,15 +54,15 @@ const data = {
     title: "About us",
     submenu: [
       {
-        label: "HISTORY",
+        label: "इतिहास",
         value: "history"
       },
       {
-        label: "OUR ASSOCIATES",
+        label: "सहकारी",
         value: "associates"
       },
       {
-        label: "AWARD WINNERS",
+        label: "पुरस्कार विजेते",
         value: "awards"
       },
       {

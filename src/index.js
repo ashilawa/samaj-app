@@ -17,6 +17,7 @@ import NotFound from "./views/NotFound";
 // All of our CSS
 import "./static/css/main.scss";
 import Committee from "./views/Committee";
+import Platinum from "./views/Platinum";
 
 ReactDOM.render(
   <Router>
@@ -30,6 +31,7 @@ ReactDOM.render(
       <Route path="/committee" component={Committee} />
       <Route path="/activites" component={Activites} />
       <Route path="/trustees" component={Trust} />
+      <Route path="/platinum" component={Platinum} />
       {/* Only useful in development mode */}
       <Route component={NotFound} status={404} />
     </Switch>

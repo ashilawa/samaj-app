@@ -4,7 +4,6 @@ const associates = [
     title: "",
     subtitle: "",
     image: "/images/about/associates/image1.png",
-
     desc: "श्री. नवाब मलिक, आमदार"
   },
   {
@@ -20,7 +19,8 @@ const associates = [
     link: "http://www.spacepotato.org",
     image: "/images/about/associates/image3.png",
 
-    desc: "श्री. बाबुराव माने, राष्ट्रीय चर्मकार संघ - संस्थापक अध्यक्ष, मा. आमदार"
+    desc:
+      "श्री. बाबुराव माने, राष्ट्रीय चर्मकार संघ - संस्थापक अध्यक्ष, मा. आमदार"
   },
   {
     title: "",

@@ -44,23 +44,60 @@ const currentCommitte = {
         position: "अंतर्गत हिशोब तपासनीस",
         name: "श्री. दीपक रामू चव्हाण "
       },
+     
       {
-        img: "images/committee/karykarniphoto/dashrath.png",
-        position: "अंतर्गत हिशोब तपासनीस",
-        name: "श्री. दशरथ शिवराम मोरे "
-      }
+        img: "images/committee/karykarniphoto/chandrakantpalekar.png",
+        position: "कार्यकारणी सदस्य",
+        name: "श्री. चंद्रकांत पांडुरंग पालेकर?"
+      },
     ],
     [
       {
-        img: "images/committee/karykarniphoto/dipakchavan.png",
-        position: "अंतर्गत हिशोब तपासनीस",
-        name: "श्री. दीपक रामू चव्हाण "
+        img: "images/committee/karykarniphoto/anantshilavane.png",
+        position: "कार्यकारणी सदस्य",
+        name: "श्री. अनंत शंकर शिळवणे"
+      }
+   ,
+      {
+        img: "images/committee/karykarniphoto/mangeshmanker.png",
+        position: "कार्यकारणी सदस्य",
+        name: "श्री. मंगेश विठ्ठल मानकर"
       },
+    ],
+    [
+
+      {
+        img: "images/committee/karykarniphoto/sashikantbhoir.png",
+        position: "कार्यकारणी सदस्य",
+        name: "श्री. अरुण तुकाराम गायकवाड "
+      }
+   ,
+      {
+        img: "images/committee/karykarniphoto/arungaikwad.png",
+        position: "कार्यकारणी सदस्य",
+        name: "????. ???? ??????? ???????"
+      },
+    ],
+    [
+      {
+        img: "images/committee/karykarniphoto/pradipnagotkar.png",
+        position: "कार्यकारणी सदस्य",
+        name: "श्री. प्रदीप भामा नागोटकर "
+      }
+   ,
+      {
+        img: "images/committee/karykarniphoto/ashokpatekar.png",
+        position: "कार्यकारणी सदस्य",
+        name: "श्री. अशोक दत्ताराम पाटेकर"
+      },
+    ],
+    [
       {
         img: "images/committee/karykarniphoto/dashrath.png",
-        position: "अंतर्गत हिशोब तपासनीस",
-        name: "श्री. दशरथ शिवराम मोरे "
+        position: "कार्यकारणी सदस्य",
+        name: "श्री. दशरथ शिवराम मोरे"
       }
+       
     ]
   ]
 };

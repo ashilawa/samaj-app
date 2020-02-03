@@ -13,8 +13,6 @@ const pastCommitte = {
     },
     {
       img: "images/committee/past/image4.png"
-    },{
-      img: "images/committee/past/image5.png"
     }
   ]
 };

@@ -14,13 +14,13 @@ const Panchayat = () => (
           </tr>
           <tr>
             {data.tableheading.map(s => (
-              <th className="table-td-center ">{s}</th>
+              <th className="table-td-center " key={s}>{s}</th>
             ))}
           </tr>
         </thead>
         <tbody >
           {data.body.map(s => (
-            <tr>
+            <tr key={s.name}>
               <td>{s.name}</td>
               <td>{s.president}</td>
             </tr>

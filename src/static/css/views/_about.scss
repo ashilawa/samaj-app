@@ -1,7 +1,6 @@
 // About page (/about)
 
 #about {
-
   p {
     margin: auto;
   }
@@ -18,7 +17,7 @@
       }
     }
   }
-  .history{
+  .history {
     text-align: center;
     width: 70%;
     margin: 15px;
@@ -36,10 +35,13 @@
     }
     .content {
       text-align: center;
-      
     }
-    
+  }
+
+  .activites-image {
+    text-align: center;
+    padding: 1%;
+    margin: 5px 0 5px 0;
+    border: solid 1px rgba(160, 160, 160, 0.3);
   }
 }
-
-

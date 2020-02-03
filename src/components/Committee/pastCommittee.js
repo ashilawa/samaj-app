@@ -20,6 +20,13 @@ const PastCommittee = () => (
                 </td>  
             </tr>
           ))}
+          <tr>
+                <td colSpan rowSpan>
+                  <h2>२०१६- २०१९</h2>
+                <img className="history" src={"images/committee/past/image5.png"} alt="pastcommittee" />
+                </td>  
+            </tr>
+
         </tbody>
       </Table>
     </div>

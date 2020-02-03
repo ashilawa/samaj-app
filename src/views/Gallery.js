@@ -5,9 +5,10 @@ import Main from "../layouts/Main";
 import { Tab, Row, ListGroup, Col } from "react-bootstrap";
 import Cell from "../components/Gallery/Cell";
 import data from "../data/Gallery/photos";
+import PlatinumEvent from "../components/Platinum/PlatinumEvent";
 
 const GallerySamaj = () => (
-  <Main fullPage={true }>
+  <Main fullPage={true}>
     <Helmet title="gallery" />
     <article className="post" id="gallery">
       <header>
@@ -21,31 +22,45 @@ const GallerySamaj = () => (
       <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link2019">
         <Row>
           <Col sm={2}>
-            <ListGroup >
+            <ListGroup>
               {data.gallary.map(link => (
-                <ListGroup.Item action variant="light" href={`#link${link.year}`} key={link.year}>
+                <ListGroup.Item
+                  action
+                  variant="light"
+                  href={`#link${link.year}`}
+                  key={link.year}
+                >
                   {link.year}
                 </ListGroup.Item>
               ))}
+              <ListGroup.Item
+                action
+                variant="light"
+                href={`#platinum`}
+                key="platinum"
+              >
+                75 वर्षे जयंती
+              </ListGroup.Item>
             </ListGroup>
           </Col>
           <Col sm={10}>
-          {data.gallary.map(link => (
+            {data.gallary.map(link => (
+              <Tab.Content>
+                <Tab.Pane eventKey={`#link${link.year}`} key={link.year}>
+                  {link.cell.map(event => (
+                    <Cell data={event} />
+                  ))}
+                </Tab.Pane>
+              </Tab.Content>
+            ))}
             <Tab.Content>
-               <Tab.Pane eventKey={`#link${link.year}`}  key={link.year}>
-                {link.cell.map(event => (
-                 
-                    <Cell data={event}  />
-                 
-                ))}
+              <Tab.Pane eventKey={`#platinum`}>
+                <PlatinumEvent />
               </Tab.Pane>
-
             </Tab.Content>
-             ))}
           </Col>
         </Row>
       </Tab.Container>
-
     </article>
   </Main>
 );

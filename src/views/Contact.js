@@ -117,15 +117,22 @@ const Contact = () => {
                   </Card.Header>
                   <Card.Body>
                     <Card.Title>
-                      <h4 className="contact-div">
-                        <a href="https://api.whatsapp.com/send?phone=+917021885520">
-                          +91 7021885520
-                        </a>
-                      </h4>
+                      <h4 className="contact-div">call on</h4>
                     </Card.Title>
                     <Card.Text className="contact-div">
                       <a href="https://api.whatsapp.com/send?phone=+917021885520">
-                        Send Message
+                        <span>98196 54580</span>
+                        <br></br>
+                        <span>श्री. प्रकाश दिघे (अध्यक्ष)</span>
+                        <br></br>
+                        <span>98673 95040</span>
+                        <br></br>
+                        <span>श्री. चेतन कोईलकर (सर चिटणीस)</span>
+                        <br></br>
+                        <span>7021885520</span>
+                        <br></br>
+                        <span>श्श्री. राजू नामदेव पेणकर (कोषाध्ययक्ष)</span>
+                        <br></br>
                       </a>
                     </Card.Text>
                   </Card.Body>
@@ -171,18 +178,26 @@ const Contact = () => {
                 </Card>
               </Col>
             </Row>
-            <div className="container-fluid pt-3 contact-div">
-              <div className="map-div">
-                <iframe
-                  width="800"
-                  height="500"
-                  id="gmap_canvas"
-                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCiUbr68SBoGzA2AbzS-RACUuShXE6p-hM
+
+            <Card className="text-center shadow-lg">
+              <Card.Header className="map-card-header">
+                ROHIDAS SUDHARAK MANDAL KURLA
+              </Card.Header>
+              <Card.Body>
+                <Card.Title>Visit Us</Card.Title>
+                <Card.Text>
+                  <iframe
+                    width="800"
+                    height="500"
+                    id="gmap_canvas"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCiUbr68SBoGzA2AbzS-RACUuShXE6p-hM
                   &amp;q=Rohidas+Sudhark+Hall"
-                  scrolling="no"
-                ></iframe>
-              </div>
-            </div>
+                    scrolling="no"
+                  ></iframe>
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer className="text-muted"></Card.Footer>
+            </Card>
           </Container>
         </div>
       </article>

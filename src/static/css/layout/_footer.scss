@@ -6,62 +6,38 @@
 
 /* Footer */
 
-	#footer {
-		text-align: center;
-		ul{
-			margin: 0px;
-		}
-		.icons {
-			color: _palette(fg-light);
-			background-color: #494949;
-			padding: 10px;
-			height: 50px;
-			text-align: center;
-		}
-
-		.copyright {
-			color: _palette(fg-light);
-			font-family: _font(family-heading);
-			font-size: 0.5em;
-			font-weight: _font(weight-heading);
-			letter-spacing: _font(kerning-heading);
-			text-transform: uppercase;
-			margin: 0px;
-		}
-
-
-		body.single & {
-			text-align: center;
-		}	
-	}
-	.pb-4, .py-4 {
-		padding-bottom: 0rem!important;
-		padding-top: 0rem!important;
-	}
-	a {
-
-		outline: none;
-		border: none;
-		img{
-			
-			padding-top: 0.5rem!important;
-			padding-left: 0.5rem!important;
-			outline: none;
-		}
-
-		
-	}
-	.footer-text{
-		padding-top: 1rem!important;
-		text-align: center;
-		color:#ffffff; 
-		font-size: 1.2em;
-	}
-	.icons-padding{
-		padding-left: 5rem!important;
-		//color:#ff6b00; 
-		font-size: 1em;
-	}
-	.footer-body{
-		text-align: center;
-	}
+#footer {
+  a {
+    outline: none;
+    border: none;
+    img {
+      padding-top: 0.5rem !important;
+      padding-left: 0.5rem !important;
+      outline: none;
+    }
+  }
+  .footer-text {
+    padding-top: 0.5rem !important;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1em;
+  }
+  .icons-padding {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.5em;
+  }
+  .footer-body {
+    text-align: center;
+  }
+  ul {
+    list-style: disc;
+    margin: 0 0 0 0;
+    padding-left: 1em;
+  }
+}
+.pb-4,
+.py-4 {
+  padding-bottom: 0rem !important;
+  padding-top: 0rem !important;
+}
