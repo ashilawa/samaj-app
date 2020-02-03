@@ -28,8 +28,8 @@ const GallerySamaj = () => (
                   {link.year}
                 </ListGroup.Item>
               ))}
-              <ListGroup.Item action variant="light" href={`#platinum`} key="platinum">
-                  75 वर्षे जयंती
+              <ListGroup.Item action variant="light" href={`#platinum`} key="platinum"> 
+                  <h4 className="header-withoutspace">75 वर्षे जयंती</h4>
                 </ListGroup.Item>
             </ListGroup>
           </Col>

@@ -11,7 +11,7 @@ const Platinum = () => (
     <article className="post" id="platinum">
       <header>
         <div className="title">
-          <h2>
+          <h2 className="header-withoutspace">
             <Link to="/platinum">75 वर्षे जयंती </Link>
           </h2>
         </div>
