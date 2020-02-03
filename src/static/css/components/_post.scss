@@ -128,6 +128,9 @@
 			border-right: 0;
 			left: _size(section-spacing) * -1;
 			width: calc(100% + (#{_size(section-spacing)} * 2));
+			margin: 6em 0 7em 0;
+						padding: 4em 3em 6em 3em;
+					
 
 			> header {
 				@include vendor('flex-direction', 'column');
@@ -194,7 +197,9 @@
 			> header {
 				@include padding(_size(section-spacing-small) * 2, _size(section-spacing-small), (0, 0, -0.5em, 0));
 				left: (_size(section-spacing-small) * -1);
-				margin: (_size(section-spacing-small) * -1) 0 _size(section-spacing-small) 0;
+				margin: 6em 0 7em 0;
+						padding: 4em 3em 6em 3em;
+					
 				width: calc(100% + #{_size(section-spacing-small) * 2});
 
 				.title {
@@ -213,8 +218,8 @@
 
 					> * {
 						border-left: 0;
-						margin: (_size(element-margin) * 0.5) 0 0 0;
-						padding-left: 0;
+						margin: 6em 0 7em 0;
+						padding: 4em 3em 6em 3em;
 					}
 
 					.author {
