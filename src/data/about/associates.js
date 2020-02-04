@@ -13,6 +13,13 @@ const associates = [
     image: "/images/about/associates/image2.png",
 
     desc: "श्री. बाबुराव माने, राष्ट्रीय चर्मकार संघ - संस्थापक अध्यक्ष, मा. आमदार"
+  }, {
+    title: "",
+    subtitle: "",
+    link: "",
+    image: "/images/about/associates/image3.png",
+
+    desc: "श्री. मंगेश कुडाळकर, आमदार"
   },
   {
     title: "",
