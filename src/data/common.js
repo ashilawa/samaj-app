@@ -59,7 +59,7 @@ const data = {
         value: "history"
       },
       {
-        label: "सहकारी",
+        label: "अधारस्तंभ / देणगीदार",
         value: "associates"
       },
       {

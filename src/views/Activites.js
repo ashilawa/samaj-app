@@ -18,7 +18,7 @@ const Activites = () => (
         </div>
       </header>
 
-        <div >
+        <div className="container">
           <p>
             संस्थेच्या भरीव व उल्लेखनीय कामाची दखल घेऊन{" "}
             <strong>
@@ -54,17 +54,14 @@ const Activites = () => (
                     समाज बांधवांच्या दुःखद (अंत विधी, तेरावं) कार्याची देखरेख
                     आणि व्यवस्था
                   </ListGroup.Item>
-                  <ListGroup.Item>सामाजिक होळी, राम नवमी उत्सव</ListGroup.Item>
+                  <ListGroup.Item>सार्वजनिक होळी उत्सव, श्रीकृष्ण जयंती</ListGroup.Item>
                 </ListGroup>
-              </Card.Text>
-
-              <Card.Text>
-                <Event></Event>
               </Card.Text>
             </Card.Body>
           </Card>
           
         </div>
+        <Event></Event>
      
     </article>
   </Main>

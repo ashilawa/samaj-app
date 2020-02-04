@@ -5,17 +5,17 @@ const data = {
       year: "2019",
       cell: [
         {
-          title: "Gun Gaurav",
+          title: "विद्यार्थी गुणगौरव सोहळा",
           subtitle: "",
           date: "2019-06-30",
           images: [
             {
               id: 0,
               src:
-              "images/gallery/Photos/2019/gungauvrav/IMG-20190619-WA0003.jpg",
-            thumbnail:
-              "images/gallery/Photos/2019/gungauvrav/IMG-20190619-WA0003.jpg",
-           
+                "images/gallery/Photos/2019/gungauvrav/IMG-20190619-WA0003.jpg",
+              thumbnail:
+                "images/gallery/Photos/2019/gungauvrav/IMG-20190619-WA0003.jpg",
+
               thumbnailWidth: 150,
               thumbnailHeight: 100
             },
@@ -34,7 +34,7 @@ const data = {
                 "images/gallery/Photos/2019/gungauvrav/IMG-20190630-WA0072.jpg",
               thumbnail:
                 "images/gallery/Photos/2019/gungauvrav/IMG-20190630-WA0072.jpg",
-                 thumbnailWidth: 150,
+              thumbnailWidth: 150,
               thumbnailHeight: 100
             },
             {
@@ -328,7 +328,7 @@ const data = {
           ]
         },
         {
-          title: "Rohidas Jayanti",
+          title: "संत रोहिदास जयंती",
           subtitle: "",
           date: "",
           images: [
@@ -521,129 +521,113 @@ const data = {
           images: [
             {
               id: 0,
-              src: "images/gallery/Photos/2019/other/IMG-20190815-WA0011.jpg",
-              thumbnail:
-                "images/gallery/Photos/2019/other/IMG-20190815-WA0011.jpg",
-              thumbnailWidth: 150,
-              thumbnailHeight: 100
-            },
-            {
-              id: 1,
-              src: "images/gallery/Photos/2019/other/IMG-20190815-WA0005.jpg",
-              thumbnail:
-                "images/gallery/Photos/2019/other/IMG-20190815-WA0005.jpg",
+              src: "images/gallery/Photos/2019/Other/image8.png",
+              thumbnail: "images/gallery/Photos/2019/Other/image8.png",
               thumbnailWidth: 150,
               thumbnailHeight: 100
             },
             {
               id: 2,
-              src: "images/gallery/Photos/2019/other/IMG-20191029-WA0042.jpg",
-              thumbnail:
-                "images/gallery/Photos/2019/other/IMG-20191029-WA0042.jpg",
+              src: "images/gallery/Photos/2019/Other/image9.png",
+              thumbnail: "images/gallery/Photos/2019/Other/image9.png",
               thumbnailWidth: 150,
               thumbnailHeight: 100
             },
             {
               id: 3,
-              src: "images/gallery/Photos/2019/other/IMG-20190815-WA0004.jpg",
-              thumbnail:
-                "images/gallery/Photos/2019/other/IMG-20190815-WA0004.jpg",
+              src: "images/gallery/Photos/2019/Other/image14.png",
+              thumbnail: "images/gallery/Photos/2019/Other/image14.png",
               thumbnailWidth: 150,
               thumbnailHeight: 100
             },
             {
               id: 4,
-              src: "images/gallery/Photos/2019/other/IMG-20190815-WA0010.jpg",
-              thumbnail:
-                "images/gallery/Photos/2019/other/IMG-20190815-WA0010.jpg",
+              src: "images/gallery/Photos/2019/Other/image15.png",
+              thumbnail: "images/gallery/Photos/2019/Other/image15.png",
               thumbnailWidth: 150,
               thumbnailHeight: 100
             },
             {
               id: 5,
-              src: "images/gallery/Photos/2019/other/IMG-20190815-WA0006.jpg",
-              thumbnail:
-                "images/gallery/Photos/2019/other/IMG-20190815-WA0006.jpg",
+              src: "images/gallery/Photos/2019/Other/image12.png",
+              thumbnail: "images/gallery/Photos/2019/Other/image12.png",
               thumbnailWidth: 150,
               thumbnailHeight: 100
             },
             {
               id: 6,
-              src: "images/gallery/Photos/2019/other/IMG-20191029-WA0041.jpg",
-              thumbnail:
-                "images/gallery/Photos/2019/other/IMG-20191029-WA0041.jpg",
+              src: "images/gallery/Photos/2019/Other/image13.png",
+              thumbnail: "images/gallery/Photos/2019/Other/image13.png",
               thumbnailWidth: 150,
               thumbnailHeight: 100
             },
             {
               id: 7,
-              src: "images/gallery/Photos/2019/other/IMG-20190815-WA0007.jpg",
-              thumbnail:
-                "images/gallery/Photos/2019/other/IMG-20190815-WA0007.jpg",
+              src: "images/gallery/Photos/2019/Other/image11.png",
+              thumbnail: "images/gallery/Photos/2019/Other/image11.png",
               thumbnailWidth: 150,
               thumbnailHeight: 100
             },
             {
               id: 8,
-              src: "images/gallery/Photos/2019/other/IMG-20190815-WA0003.jpg",
-              thumbnail:
-                "images/gallery/Photos/2019/other/IMG-20190815-WA0003.jpg",
+              src: "images/gallery/Photos/2019/Other/image10.png",
+              thumbnail: "images/gallery/Photos/2019/Other/image10.png",
               thumbnailWidth: 150,
               thumbnailHeight: 100
             },
             {
               id: 9,
-              src: "images/gallery/Photos/2019/other/IMG-20191106-WA0016.jpg",
-              thumbnail:
-                "images/gallery/Photos/2019/other/IMG-20191106-WA0016.jpg",
+              src: "images/gallery/Photos/2019/Other/image7.png",
+              thumbnail: "images/gallery/Photos/2019/Other/image7.png",
               thumbnailWidth: 150,
               thumbnailHeight: 100
             },
             {
               id: 10,
-              src: "images/gallery/Photos/2019/other/IMG-20191106-WA0015.jpg",
-              thumbnail:
-                "images/gallery/Photos/2019/other/IMG-20191106-WA0015.jpg",
+              src: "images/gallery/Photos/2019/Other/image6.png",
+              thumbnail: "images/gallery/Photos/2019/Other/image6.png",
               thumbnailWidth: 150,
               thumbnailHeight: 100
             },
             {
               id: 11,
-              src: "images/gallery/Photos/2019/other/IMG-20191029-WA0037.jpg",
-              thumbnail:
-                "images/gallery/Photos/2019/other/IMG-20191029-WA0037.jpg",
+              src: "images/gallery/Photos/2019/Other/image4.png",
+              thumbnail: "images/gallery/Photos/2019/Other/image4.png",
               thumbnailWidth: 150,
               thumbnailHeight: 100
             },
             {
               id: 12,
-              src: "images/gallery/Photos/2019/other/IMG-20191108-WA0000.jpg",
-              thumbnail:
-                "images/gallery/Photos/2019/other/IMG-20191108-WA0000.jpg",
+              src: "images/gallery/Photos/2019/Other/image5.png",
+              thumbnail: "images/gallery/Photos/2019/Other/image5.png",
               thumbnailWidth: 150,
               thumbnailHeight: 100
             },
             {
               id: 13,
-              src: "images/gallery/Photos/2019/other/IMG-20191108-WA0001.jpg",
-              thumbnail:
-                "images/gallery/Photos/2019/other/IMG-20191108-WA0001.jpg",
+              src: "images/gallery/Photos/2019/Other/image1.png",
+              thumbnail: "images/gallery/Photos/2019/Other/image1.png",
               thumbnailWidth: 150,
               thumbnailHeight: 100
             },
             {
               id: 14,
-              src: "images/gallery/Photos/2019/other/IMG-20190815-WA0009.jpg",
-              thumbnail:
-                "images/gallery/Photos/2019/other/IMG-20190815-WA0009.jpg",
+              src: "images/gallery/Photos/2019/Other/image2.png",
+              thumbnail: "images/gallery/Photos/2019/Other/image2.png",
               thumbnailWidth: 150,
               thumbnailHeight: 100
             },
             {
               id: 15,
-              src: "images/gallery/Photos/2019/other/IMG-20190815-WA0008.jpg",
-              thumbnail:
-                "images/gallery/Photos/2019/other/IMG-20190815-WA0008.jpg",
+              src: "images/gallery/Photos/2019/Other/image.png",
+              thumbnail: "images/gallery/Photos/2019/Other/image.png",
+              thumbnailWidth: 150,
+              thumbnailHeight: 100
+            },
+            {
+              id: 16,
+              src: "images/gallery/Photos/2019/Other/image3.png",
+              thumbnail: "images/gallery/Photos/2019/Other/image3.png",
               thumbnailWidth: 150,
               thumbnailHeight: 100
             }
@@ -1220,7 +1204,7 @@ const data = {
           ]
         },
         {
-          title: "Rohidas Jayanti",
+          title: "संत रोहिदास जयंती",
           subtitle: "",
           date: "2018-02-04",
           images: [
@@ -1457,298 +1441,9 @@ const data = {
               thumbnailHeight: 100
             }
           ]
-        } /* ,
-      {
-        title: "Others",
-        subtitle: "",
-        date: "",
-        images: [
-          {
-            src:
-              "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-            thumbnail:
-              "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
-            thumbnailWidth: 150,
-            thumbnailHeight: 100,
-            isSelected: true,
-            caption: "After Rain (Jeshu John - designerspics.com)"
-          },
-          {
-            src:
-              "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-            thumbnail:
-              "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-            thumbnailWidth: 150,
-            thumbnailHeight: 100,
-            tags: [
-              { value: "Ocean", title: "Ocean" },
-              { value: "People", title: "People" }
-            ],
-            caption: "Boats (Jeshu John - designerspics.com)"
-          },
-  
-          {
-            src:
-              "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-            thumbnail:
-              "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-            thumbnailWidth: 150,
-            thumbnailHeight: 100
-          },
-          {
-            src:
-              "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-            thumbnail:
-              "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
-            thumbnailWidth: 150,
-            thumbnailHeight: 100,
-            isSelected: true,
-            caption: "After Rain (Jeshu John - designerspics.com)"
-          },
-          {
-            src:
-              "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-            thumbnail:
-              "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-            thumbnailWidth: 150,
-            thumbnailHeight: 100,
-            tags: [
-              { value: "Ocean", title: "Ocean" },
-              { value: "People", title: "People" }
-            ],
-            caption: "Boats (Jeshu John - designerspics.com)"
-          },
-  
-          {
-            src:
-              "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-            thumbnail:
-              "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-            thumbnailWidth: 150,
-            thumbnailHeight: 100
-          }
-        ]
-      } */
+        } 
       ]
     }
-    // {
-    //   year:"2017",
-    //   cell: [
-    //     {
-    //       title: "Annual book distribution",
-    //       subtitle: "",
-    //       date: "",
-    //       images: [
-    //         {
-    //           src:
-    //             "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-    //           thumbnail:
-    //             "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100,
-    //           isSelected: true,
-    //           caption: "After Rain (Jeshu John - designerspics.com)"
-    //         },
-    //         {
-    //           src:
-    //             "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-    //           thumbnail:
-    //             "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100,
-    //           tags: [
-    //             { value: "Ocean", title: "Ocean" },
-    //             { value: "People", title: "People" }
-    //           ],
-    //           caption: "Boats (Jeshu John - designerspics.com)"
-    //         },
-
-    //         {
-    //           src:
-    //             "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-    //           thumbnail:
-    //             "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100
-    //         },
-    //         {
-    //           src:
-    //             "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-    //           thumbnail:
-    //             "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100,
-    //           isSelected: true,
-    //           caption: "After Rain (Jeshu John - designerspics.com)"
-    //         },
-    //         {
-    //           src:
-    //             "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-    //           thumbnail:
-    //             "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100,
-    //           tags: [
-    //             { value: "Ocean", title: "Ocean" },
-    //             { value: "People", title: "People" }
-    //           ],
-    //           caption: "Boats (Jeshu John - designerspics.com)"
-    //         },
-
-    //         {
-    //           src:
-    //             "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-    //           thumbnail:
-    //             "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100
-    //         }
-    //       ]
-    //     },
-    //     {
-    //       title: "Rohidas Jayanti",
-    //       subtitle: "",
-    //       date: "",
-    //       images: [
-    //         {
-    //           src:
-    //             "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-    //           thumbnail:
-    //             "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100,
-    //           isSelected: true,
-    //           caption: "After Rain (Jeshu John - designerspics.com)"
-    //         },
-    //         {
-    //           src:
-    //             "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-    //           thumbnail:
-    //             "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100,
-    //           tags: [
-    //             { value: "Ocean", title: "Ocean" },
-    //             { value: "People", title: "People" }
-    //           ],
-    //           caption: "Boats (Jeshu John - designerspics.com)"
-    //         },
-
-    //         {
-    //           src:
-    //             "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-    //           thumbnail:
-    //             "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100
-    //         },
-    //         {
-    //           src:
-    //             "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-    //           thumbnail:
-    //             "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100,
-    //           isSelected: true,
-    //           caption: "After Rain (Jeshu John - designerspics.com)"
-    //         },
-    //         {
-    //           src:
-    //             "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-    //           thumbnail:
-    //             "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100,
-    //           tags: [
-    //             { value: "Ocean", title: "Ocean" },
-    //             { value: "People", title: "People" }
-    //           ],
-    //           caption: "Boats (Jeshu John - designerspics.com)"
-    //         },
-
-    //         {
-    //           src:
-    //             "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-    //           thumbnail:
-    //             "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100
-    //         }
-    //       ]
-    //     },
-    //     {
-    //       title: "Others",
-    //       subtitle: "",
-    //       date: "",
-    //       images: [
-    //         {
-    //           src:
-    //             "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-    //           thumbnail:
-    //             "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100,
-    //           isSelected: true,
-    //           caption: "After Rain (Jeshu John - designerspics.com)"
-    //         },
-    //         {
-    //           src:
-    //             "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-    //           thumbnail:
-    //             "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100,
-    //           tags: [
-    //             { value: "Ocean", title: "Ocean" },
-    //             { value: "People", title: "People" }
-    //           ],
-    //           caption: "Boats (Jeshu John - designerspics.com)"
-    //         },
-
-    //         {
-    //           src:
-    //             "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-    //           thumbnail:
-    //             "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100
-    //         },
-    //         {
-    //           src:
-    //             "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-    //           thumbnail:
-    //             "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100,
-    //           isSelected: true,
-    //           caption: "After Rain (Jeshu John - designerspics.com)"
-    //         },
-    //         {
-    //           src:
-    //             "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-    //           thumbnail:
-    //             "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100,
-    //           tags: [
-    //             { value: "Ocean", title: "Ocean" },
-    //             { value: "People", title: "People" }
-    //           ],
-    //           caption: "Boats (Jeshu John - designerspics.com)"
-    //         },
-
-    //         {
-    //           src:
-    //             "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-    //           thumbnail:
-    //             "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-    //           thumbnailWidth: 150,
-    //           thumbnailHeight: 100
-    //         }
-    //       ]
-    //     }
-    //   ]
-    // }
   ]
 };
 export default data;

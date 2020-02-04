@@ -48,7 +48,7 @@ const currentCommitte = {
       {
         img: "images/committee/karykarniphoto/chandrakantpalekar.png",
         position: "कार्यकारणी सदस्य",
-        name: "श्री. चंद्रकांत पांडुरंग पालेकर?"
+        name: "श्री. चंद्रकांत पांडुरंग पालेकर"
       },
     ],
     [
@@ -69,13 +69,13 @@ const currentCommitte = {
       {
         img: "images/committee/karykarniphoto/sashikantbhoir.png",
         position: "कार्यकारणी सदस्य",
-        name: "श्री. अरुण तुकाराम गायकवाड "
+        name: "श्री. शशिकांत कोंडीराम भोईर"
       }
    ,
       {
         img: "images/committee/karykarniphoto/arungaikwad.png",
         position: "कार्यकारणी सदस्य",
-        name: "????. ???? ??????? ???????"
+        name: "श्री. अरुण तुकाराम गायकवाड"
       },
     ],
     [

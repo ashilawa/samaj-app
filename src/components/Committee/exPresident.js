@@ -13,13 +13,13 @@ const ExPresident = () => (
           </tr>
           <tr>
             {data.tableheading.map(s => (
-              <th className="table-td-center">{s}</th>
+              <th className="table-td-center" key={s}>{s}</th>
             ))}
           </tr>
         </thead>
         <tbody>
           {data.body.map(s => (
-            <tr>
+            <tr key={s.president}>
               <td>{s.president}</td>
               <td>{s.period}</td>
             </tr>

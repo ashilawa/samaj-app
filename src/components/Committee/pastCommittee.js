@@ -14,14 +14,14 @@ const PastCommittee = () => (
         </thead>
         <tbody >
           {data.body.map(s => (
-            <tr>
-                <td colSpan rowSpan>
+            <tr key={s.img}>
+                <td >
                 <img className="history" src={s.img} alt="pastcommittee" />
                 </td>  
             </tr>
           ))}
           <tr>
-                <td colSpan rowSpan>
+                <td >
                   <h2>२०१६- २०१९</h2>
                 <img className="history" src={"images/committee/past/image5.png"} alt="pastcommittee" />
                 </td>  

@@ -5,7 +5,7 @@ import { Image } from "react-bootstrap";
 const PlatinumEvent = ({gif}) => (
   <div id="platinum">
     <div className="img">
-    {!gif?<Image src="/images/platinumjubilee/seventyfive.gif"></Image>:""}
+    {!gif?<Image src="/images/platinumjubilee/seventyfive.jpg"></Image>:""}
     </div>
       
     <div className="container" >

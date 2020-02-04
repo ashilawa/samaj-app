@@ -26,7 +26,7 @@ const Nav = () => (
         </li>
         
       </ul>
-     <a href="/platinum" ><Image  src="/images/platinumjubilee/seventyfive.gif"></Image></a> 
+     <a href="/platinum" ><Image  src="/images/platinumjubilee/seventyfive.jpg"></Image></a> 
     </section>
    <div></div>
   </section>
