@@ -13,6 +13,8 @@ const Home = () => (
         {info.data.map(s => (
           <Carousel.Item key={s.path}>
             <img className="d-block w-100 " src={s.path} alt={s.alt}  />
+            
+
           </Carousel.Item>
         ))}
       </Carousel>

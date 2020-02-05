@@ -1,18 +1,24 @@
 import React from "react";
 import platinumData from "../../data/platinum/platinum";
 import Cell from "../Gallery/Cell";
-import { Image } from "react-bootstrap";
-const PlatinumEvent = ({gif}) => (
+import { Image, Card, Button } from "react-bootstrap";
+const PlatinumEvent = ({ gif }) => (
   <div id="platinum">
     <div className="img">
-    {!gif?<Image src="/images/platinumjubilee/seventyfive.jpg"></Image>:""}
+      {!gif ? (
+        <Image src="/images/platinumjubilee/seventyfive.jpg"></Image>
+      ) : (
+        ""
+      )}
     </div>
-      
-    <div className="container" >
+
+    <div className="container">
       <p>
         संस्थेच्या सामाजिक कार्याला{" "}
         <strong>
-          <span style={{ color: "#0073ff" }}>२०१७ मध्ये ७५ वर्षे पूर्ण झाली,</span>
+          <span style={{ color: "#0073ff" }}>
+            २०१७ मध्ये ७५ वर्षे पूर्ण झाली,
+          </span>
         </strong>{" "}
         त्यानिमित्त संस्थेने{" "}
         <strong>
@@ -20,8 +26,8 @@ const PlatinumEvent = ({gif}) => (
         </strong>{" "}
         साजरा केला. दोन दिवस चालेल्या या सोहळयात सत्यनारायणाची महापूजा, महा
         भंडारा, हळदी कुंकू, पुरस्कार सोहळा असे अनेक कार्यक्रम पार पडले.
-     <br></br>
-        सर्वेश्वर मंदिर कुर्ला ते गोल बिल्डिंग नंतर समाज मंदिर ह्या मार्गाने
+        <br></br>
+        सर्वेश्वर मंदिर कुर्ला ते गोल बिल्डिंग नंतर समाज मंदिर ह्या मार्गाने{" "}
         <strong>
           <span style={{ color: "#ff0088" }}>
             संत रोहिदास महाराज यांचा प्रतिमेची भव्य दिव्य अशी मिरवणूक
@@ -33,9 +39,31 @@ const PlatinumEvent = ({gif}) => (
       </p>
     </div>
     <div className="container">
-    
-            <Cell data={platinumData} />
+      <Cell data={platinumData} />
+
+      <div className="container ahval-div">
+      <Card.Header>अमृत महोत्सव स्मरणिका -२०१७</Card.Header>
+     
+    <a href={platinumData.ahval.src} target="_blank" rel="noopener noreferrer" ><Card className="text-center" style={{ width: "18rem" }}>
+         <Card.Body>
+         <Card.Text>
+         <Image src={platinumData.ahval.frontpage} fluid />
+          </Card.Text>
+          
+        </Card.Body>
+      </Card></a>
+      <Card.Header> 
+      <Button href={platinumData.ahval.src} variant="secondary" size="lg" block target="_blank" rel="noopener noreferrer">
+    View
+  </Button>
+        </Card.Header>
+     
+     
+     
     </div>
+     
+    </div>
+
   </div>
 );
 

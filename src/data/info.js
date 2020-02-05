@@ -1,19 +1,20 @@
-
- const info = {
+const info = {
   data: [
+    
     {
-      "path": "/images/home/rohidas.jpeg",
-      "label": "rohidasmaharaj",
-      "info": "rohidasmaharaj",
-      "alt": "rohidasmaharaj"
+      path: "/images/home/rohidas.jpeg",
+      
+      alt: "rohidasmaharaj"
+    },{
+      path: "/images/home/invite.jpeg",
+     
+      alt: "invite"
     },
     {
-      "path": "/images/home/first.jpg",
-      "height": "first",
-      "info": "info1",
-      "alt": "first image"
-    }
+      path: "/images/home/first.jpg",
     
+      alt: "first image"
+    }
   ]
-}
+};
 export default info;

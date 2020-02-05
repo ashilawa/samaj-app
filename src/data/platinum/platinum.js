@@ -1,5 +1,5 @@
 const platinumData = {
-  title: "75 वर्षे जयंती",
+  title: "अमृत महोत्सव",
   subtitle: "",
   date: "2017-02-10",
   images: [
@@ -73,6 +73,10 @@ const platinumData = {
       thumbnailWidth: 150,
       thumbnailHeight: 100
     }
-  ]
+  ],
+  ahval: {
+    src: "images/platinumjubilee/ahval.pdf",
+    frontpage: "images/platinumjubilee/frontPageAhval.jpg"
+  }
 };
 export default platinumData;

@@ -12,7 +12,7 @@ const Platinum = () => (
       <header>
         <div className="title">
           <h2 className="header-withoutspace">
-            <Link to="/platinum">75 वर्षे जयंती </Link>
+            <Link to="/platinum">अमृत महोत्सव </Link>
           </h2>
         </div>
       </header>

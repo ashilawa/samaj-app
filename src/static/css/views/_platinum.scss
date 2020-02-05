@@ -1,7 +1,6 @@
 // Sant rohidas maharaj (/srm)
 
 #platinum {
-  border: solid 1px rgba(160, 160, 160, 0.3);
   .table-header-bg {
     background-color: #4b49b7;
     color: white;
@@ -20,4 +19,30 @@
   .img {
     text-align: center;
 }
+.ahval-div{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  &:hover {
+    border: solid 1px rgba(160, 160, 160, 0.3);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+a {
+ 
+  &:hover {
+    color: #f70c8d !important;
+    
+  }
+}
+.card-header {
+  text-align: center;
+  padding: 3%;
+  font-size: larger;
+  font-weight: 400;
+}
+
 }
