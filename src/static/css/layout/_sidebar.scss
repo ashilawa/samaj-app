@@ -19,14 +19,20 @@
 
   > :first-child {
     border-top: 0;
-    margin-top: 0;
+    margin-top: 3em;
     padding-top: 0;
   }
-  .text-center{
+  .text-center {
     text-align: center;
   }
 
   @include breakpoint(large) {
+    border-top: solid 1px _palette(border);
+    min-width: 0;
+    width: 100%;
+  }
+
+  @include breakpoint(small) {
     border-top: solid 1px _palette(border);
     margin: _size(section-spacing) 0 0 0;
     min-width: 0;

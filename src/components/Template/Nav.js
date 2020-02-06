@@ -9,8 +9,12 @@ const Nav = () => (
         <img src={`/images/Mobile-Logo.jpg`} alt="RSM-logo" />
       </Link>
       <header>
+        <div>
         <h2>Rohidas Sudharak Mandal</h2>
-      </header>
+        Reg No. E8809 Mumbai
+        </div>
+       
+      </header>    
     </section>
 
     <section className="blurb text-center">
