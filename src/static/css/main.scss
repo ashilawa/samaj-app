@@ -109,14 +109,10 @@
   }
 
   .nav-link {
+    outline: none;
     &:hover {
       color: #f70c8d !important;
     }
-
-    // &:focus {
-    //   color: red !important;
-    //   border-bottom: 1px solid red;
-    // }
 
     &.active {
       color: #f70c8d !important;

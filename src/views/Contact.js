@@ -80,12 +80,12 @@ const Contact = () => {
           </div>
         </header>
 
-        <div className="bg">
+        <div >
           <Container fluid="true">
             <Row>
               <Col>
                 <Card style={{ height: "100%" }}>
-                  {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+                  
                   <Card.Header className="card-header">
                     <FontAwesomeIcon className="fa-icon" icon={faAddressCard} />
                   </Card.Header>

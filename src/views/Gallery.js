@@ -9,7 +9,7 @@ import PlatinumEvent from "../components/Platinum/PlatinumEvent";
 
 const GallerySamaj = () => (
   <Main fullPage={true }>
-    <Helmet title="gallery" />
+    <Helmet title="gallery rsmkurla" />
     <article className="post" id="gallery">
       <header>
         <div className="title">

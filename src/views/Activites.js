@@ -7,7 +7,7 @@ import Event from "../components/Activites/events";
 
 const Activites = () => (
   <Main>
-    <Helmet title="Activites" />
+    <Helmet title="Activites rsm-kurla" />
 
     <article className="post" id="activites">
       <header>

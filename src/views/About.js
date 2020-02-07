@@ -20,7 +20,7 @@ const tabRoutes = {
 const About = () => {
   return (
     <Main>
-      <Helmet title="About" />
+      <Helmet title="About rsmkurla" />
       <article className="post" id="about">
         <header>
           <div className="title">

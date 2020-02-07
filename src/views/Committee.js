@@ -18,7 +18,7 @@ const tabRoutes = {
 }
 const Committee = () => (
   <Main>
-    <Helmet title="Committee" />
+    <Helmet title="Committee rsm-kurla" />
     <article className="post" id="committee">
       <header>
         <div className="title ">
