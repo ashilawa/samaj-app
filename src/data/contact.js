@@ -6,13 +6,13 @@ import faYoutube from "@fortawesome/fontawesome-free-brands/faYoutube";
 
 const data = [
   {
-    link: "",
+    link: "https://www.facebook.com/rohidassudharakmandal.kurla.3",
     label: "Facebook",
     icon: faFacebook,
     color: "#3b5998"
   },
   {
-    link: "",
+    link: "https://www.instagram.com/rsmkurla/",
     label: "Instagram",
     icon: faInstagram,
     color: "#f50c81"
@@ -31,7 +31,7 @@ const data = [
     color: "#ff9900"
   },
   {
-    link: "",
+    link: "https://www.youtube.com/channel/UCPyfnvruJOf0ZP7bEVQ5tiw/",
     label: "YouTube",
     icon: faYoutube,
     color: "red"

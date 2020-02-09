@@ -43,7 +43,7 @@ class Main extends Component {
                 <ul className="icons">
                   {data.map(s => (
                     <li key={s.label}>
-                      <a href={s.link}>
+                      <a href={s.link} target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon color={s.color} icon={s.icon} />
                       </a>
                     </li>

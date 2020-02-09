@@ -630,6 +630,68 @@ const data = {
               thumbnail: "images/gallery/Photos/2019/Other/image3.png",
               thumbnailWidth: 150,
               thumbnailHeight: 100
+            },{
+              "id": 17,
+              "src": "images/gallery/Photos/2019/Other/additional/image1.jpeg",
+              "thumbnail": "images/gallery/Photos/2019/Other/additional/image1.jpeg",
+              "thumbnailWidth": 150,
+              "thumbnailHeight": 100
+            },
+            {
+              "id": 18,
+              "src": "images/gallery/Photos/2019/Other/additional/image6.jpeg",
+              "thumbnail": "images/gallery/Photos/2019/Other/additional/image6.jpeg",
+              "thumbnailWidth": 150,
+              "thumbnailHeight": 100
+            },
+            {
+              "id": 19,
+              "src": "images/gallery/Photos/2019/Other/additional/image7.jpeg",
+              "thumbnail": "images/gallery/Photos/2019/Other/additional/image7.jpeg",
+              "thumbnailWidth": 150,
+              "thumbnailHeight": 100
+            },
+            {
+              "id": 20,
+              "src": "images/gallery/Photos/2019/Other/additional/image8.jpeg",
+              "thumbnail": "images/gallery/Photos/2019/Other/additional/image8.jpeg",
+              "thumbnailWidth": 150,
+              "thumbnailHeight": 100
+            },
+            {
+              "id": 21,
+              "src": "images/gallery/Photos/2019/Other/additional/image4.jpeg",
+              "thumbnail": "images/gallery/Photos/2019/Other/additional/image4.jpeg",
+              "thumbnailWidth": 150,
+              "thumbnailHeight": 100
+            },
+            {
+              "id": 22,
+              "src": "images/gallery/Photos/2019/Other/additional/image5.jpeg",
+              "thumbnail": "images/gallery/Photos/2019/Other/additional/image5.jpeg",
+              "thumbnailWidth": 150,
+              "thumbnailHeight": 100
+            },
+            {
+              "id": 23,
+              "src": "images/gallery/Photos/2019/Other/additional/image9.jpeg",
+              "thumbnail": "images/gallery/Photos/2019/Other/additional/image9.jpeg",
+              "thumbnailWidth": 150,
+              "thumbnailHeight": 100
+            },
+            {
+              "id": 24,
+              "src": "images/gallery/Photos/2019/Other/additional/image2.jpeg",
+              "thumbnail": "images/gallery/Photos/2019/Other/additional/image2.jpeg",
+              "thumbnailWidth": 150,
+              "thumbnailHeight": 100
+            },
+            {
+              "id": 25,
+              "src": "images/gallery/Photos/2019/Other/additional/image3.jpeg",
+              "thumbnail": "images/gallery/Photos/2019/Other/additional/image3.jpeg",
+              "thumbnailWidth": 150,
+              "thumbnailHeight": 100
             }
           ]
         }

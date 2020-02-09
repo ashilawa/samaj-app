@@ -72,6 +72,96 @@ const platinumData = {
       thumbnail: "images/platinumjubilee/IMG_20170210_162938.jpg",
       thumbnailWidth: 150,
       thumbnailHeight: 100
+    },{
+      id: 11,
+      src: "images/platinumjubilee/image.jpeg",
+     thumbnail: "images/platinumjubilee/image.jpeg",
+      thumbnailWidth: 150,
+      thumbnailHeight: 100
+    },
+    {
+      id: 12,
+      src: "images/platinumjubilee/image1.jpeg",
+     thumbnail: "images/platinumjubilee/image1.jpeg",
+      thumbnailWidth: 150,
+      thumbnailHeight: 100
+    },
+    {
+      id: 13,
+      src: "images/platinumjubilee/image2.jpeg",
+     thumbnail: "images/platinumjubilee/image2.jpeg",
+      thumbnailWidth: 150,
+      thumbnailHeight: 100
+    },
+    {
+      id: 14,
+      src: "images/platinumjubilee/image3.jpeg",
+     thumbnail: "images/platinumjubilee/image3.jpeg",
+      thumbnailWidth: 150,
+      thumbnailHeight: 100
+    },
+    {
+      id: 15,
+      src: "images/platinumjubilee/image4.jpeg",
+     thumbnail: "images/platinumjubilee/image4.jpeg",
+      thumbnailWidth: 150,
+      thumbnailHeight: 100
+    },
+    {
+      id: 16,
+      src: "images/platinumjubilee/image5.jpeg",
+     thumbnail: "images/platinumjubilee/image5.jpeg",
+      thumbnailWidth: 150,
+      thumbnailHeight: 100
+    },
+    {
+      id: 17,
+      src: "images/platinumjubilee/image6.jpeg",
+     thumbnail: "images/platinumjubilee/image6.jpeg",
+      thumbnailWidth: 150,
+      thumbnailHeight: 100
+    },
+    {
+      id: 18,
+      src: "images/platinumjubilee/image7.jpeg",
+     thumbnail: "images/platinumjubilee/image7.jpeg",
+      thumbnailWidth: 150,
+      thumbnailHeight: 100
+    },
+    {
+      id: 19,
+      src: "images/platinumjubilee/image8.jpeg",
+     thumbnail: "images/platinumjubilee/image8.jpeg",
+      thumbnailWidth: 150,
+      thumbnailHeight: 100
+    },
+    {
+      id: 20,
+      src: "images/platinumjubilee/image9.jpeg",
+     thumbnail: "images/platinumjubilee/image9.jpeg",
+      thumbnailWidth: 150,
+      thumbnailHeight: 100
+    },
+    {
+      id: 21,
+      src: "images/platinumjubilee/image10.jpeg",
+     thumbnail: "images/platinumjubilee/image10.jpeg",
+      thumbnailWidth: 150,
+      thumbnailHeight: 100
+    },
+    {
+      id: 22,
+      src: "images/platinumjubilee/image11.jpeg",
+     thumbnail: "images/platinumjubilee/image11.jpeg",
+      thumbnailWidth: 150,
+      thumbnailHeight: 100
+    },
+    {
+      id: 23,
+      src: "images/platinumjubilee/image12.jpeg",
+     thumbnail: "images/platinumjubilee/image12.jpeg",
+      thumbnailWidth: 150,
+      thumbnailHeight: 100
     }
   ],
   ahval: {
