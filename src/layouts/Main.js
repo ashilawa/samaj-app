@@ -20,7 +20,7 @@ class Main extends Component {
     return (
       <div>
         <div id="wrapper">
-          <Helmet titleTemplate="%s | Rohidas Sudharak Mandal,Kurla" defaultTitle="Rohidas Sudharak Mandal,Kurla" />
+          <Helmet titleTemplate="%s | Rohidas samaj kurla" defaultTitle="Rohidas Sudharak Mandal,Kurla" />
           <Header />
           <div id="main">{this.props.children}</div>
           {!this.props.fullPage && <Nav />}
