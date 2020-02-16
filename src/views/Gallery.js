@@ -19,7 +19,7 @@ const GallerySamaj = () => (
         </div>
       </header>
 
-      <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link2019">
+      <Tab.Container id="list-group-tabs-example" defaultActiveKey={`#link${data.gallary[0].year}`}>
         <Row>
           <Col sm={2}>
             <ListGroup >
