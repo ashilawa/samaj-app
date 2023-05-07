@@ -28,7 +28,7 @@
     "react-markdown": "^4.2.2",
     "react-md-file": "^2.0.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0",
+    "react-scripts": "5.0.1",
     "react-scroll-up-button": "^1.6.4"
   },
   "scripts": {
